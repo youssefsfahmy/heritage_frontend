@@ -1,7 +1,6 @@
 import React from "react";
 import "./CSS/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "mdb-ui-kit/css/mdb.min.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
