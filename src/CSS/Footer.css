@@ -69,9 +69,7 @@
 .bg-black {
   background-color: var(--primary) !important;
 }
-.icon:hover {
-  /* color: black; */
-}
+
 .btn-outline-light:hover {
   background-color: white;
   color: var(--secondary) !important;
@@ -111,6 +109,9 @@
   font-family: "Qanelas light";
   font-size: 0.75rem;
   color: #9497a1 !important;
+}
+.text-white:hover {
+  color: var(--secondary) !important;
 }
 li {
   color: #9497a1;

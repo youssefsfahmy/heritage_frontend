@@ -8,15 +8,13 @@ import ContactUs from "./Pages/ContactUs";
 import AboutUs from "./Pages/AboutUs";
 import Partner from "./Pages/Partner";
 import Partners from "./Pages/Partners";
-import Footer from "./Components/General/Footer2";
-import OffcanvasExample from "./Components/General/NavTest";
-
+import Footer from "./Components/General/Footer";
+import NavigationBar from "./Components/General/NavigationBar";
 function App() {
   return (
     <div className="App">
       <Router>
-        <OffcanvasExample />
-        {/* <NavigationBar /> */}
+        <NavigationBar />
         <Routes>
           <Route exact path="/" element={<Homepage />}></Route>
           <Route exact path="/About" element={<AboutUs />}></Route>

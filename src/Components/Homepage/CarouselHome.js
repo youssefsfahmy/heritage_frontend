@@ -1,27 +1,27 @@
 import React from "react";
-import "../../CSS/Homepage.css";
+import "../../CSS/Homepage/HomeCarousel.css";
 import Carousel from "react-material-ui-carousel";
-import bck from "../../Images/1.jpg";
-import bck1 from "../../Images/4.jpg";
-import bck2 from "../../Images/3.jpg";
+import bck1 from "../../Images/bck1.jpg";
+import bck2 from "../../Images/bck6.jpg";
+import bck3 from "../../Images/bck3.jpg";
 
 import { Paper } from "@mui/material";
 export default function CarouselHome() {
   return (
-    <Carousel height="100vh" autoPlay={false}>
+    <Carousel height="100vh" autoPlay={true} interval={7500} duration={1000}>
       <Paper>
         <header>
-          <img alt="img" src={bck} className="image" />
+          <img alt="img" className="image1" src={bck1} />
         </header>
       </Paper>
       <Paper>
         <header>
-          <img alt="img" className="image" src={bck1} />
+          <img alt="img" className="image2" src={bck2} />
         </header>
       </Paper>
       <Paper>
         <header>
-          <img alt="img" className="image" src={bck2} />
+          <img alt="img" className="image3" src={bck3} />
         </header>
       </Paper>
     </Carousel>

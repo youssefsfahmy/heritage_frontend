@@ -21,17 +21,14 @@ a:hover {
   padding-left: 2.15rem;
 }
 .navbar-dark .navbar-toggler-icon {
-  /* background-size: 2vw; */
   background-image: url(https://img.icons8.com/ios-glyphs/120/FFFFFF/menu--v1.png) !important;
 }
 .navbar-dark .navbar-toggler-icon:hover {
-  /* background-size: 2vw; */
   background-image: url(https://img.icons8.com/ios-glyphs/120/9d5c63/menu--v1.png) !important;
 }
 .offcanvas {
   background-color: var(--primary);
   z-index: 1028;
-  /* padding: 1rem !important; */
 }
 .offcanvas-backdrop {
   z-index: 1025;
@@ -40,8 +37,13 @@ a:hover {
   margin-left: 1rem;
 }
 
-.offcanvas.show {
-}
 .offcanvas-header {
   height: 7.5rem;
+}
+.navbar-toggler {
+  border: none;
+  margin-bottom: 2.5%;
+}
+.navbar-toggler:focus {
+  border: none !important;
 }
