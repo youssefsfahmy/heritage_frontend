@@ -55,7 +55,7 @@
 }
 
 .icon {
-  color: var(--primary);
+  color: var(--primary) !important;
   margin: 0;
   width: 75% !important;
   position: absolute;
@@ -88,7 +88,21 @@
   height: 1.65rem;
 }
 .m-1 {
+  color: var(--primary) !important;
+  background-color: white !important;
+  transition: color 0.5s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.25s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  width: 1.65rem;
+  height: 1.65rem;
   margin: 0.35rem !important;
+  border-style: solid !important;
+  border-width: 0.125rem !important;
+  border-color: white !important;
+}
+.m-1:hover {
+  background-color: white;
+  color: var(--primary) !important;
+  border-color: var(--secondary) !important;
 }
 .Row-Header {
   font-size: 0.75rem;

@@ -2,7 +2,6 @@
   "name": "heritage-frontend",
   "version": "0.1.0",
   "homepage": "https://youssefsfahmy.github.io/heritage_frontend",
-
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -13,8 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
-    "mdb-react-ui-kit": "^4.2.0",
-    "mdb-ui-kit": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",

@@ -8,6 +8,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GoogleIcon from "@mui/icons-material/Google";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import IconButton from "@mui/material/IconButton";
 
 export default function Footer() {
   return (
@@ -18,60 +19,24 @@ export default function Footer() {
           <div>
             {" "}
             <section className="mb-4">
-              <MDBBtn
-                outline
-                color="light"
-                floating
-                className="m-1"
-                href="#!"
-                role="button"
-              >
+              <IconButton className="m-1" href="#!">
                 <FacebookIcon className="icon" />
-              </MDBBtn>
-
-              <MDBBtn
-                outline
-                color="light"
-                floating
-                className="m-1"
-                href="#!"
-                role="button"
-              >
+              </IconButton>
+              <IconButton className="m-1" href="#!">
                 <TwitterIcon className="icon" />
-              </MDBBtn>
+              </IconButton>
 
-              <MDBBtn
-                outline
-                color="light"
-                floating
-                className="m-1"
-                href="#!"
-                role="button"
-              >
+              <IconButton className="m-1" href="#!">
                 <GoogleIcon className="icon" />
-              </MDBBtn>
+              </IconButton>
 
-              <MDBBtn
-                outline
-                color="light"
-                floating
-                className="m-1"
-                href="#!"
-                role="button"
-              >
+              <IconButton className="m-1" href="#!">
                 <InstagramIcon className="icon" />
-              </MDBBtn>
+              </IconButton>
 
-              <MDBBtn
-                outline
-                color="light"
-                floating
-                className="m-1"
-                href="#!"
-                role="button"
-              >
+              <IconButton className="m-1" href="#!">
                 <LinkedInIcon className="icon" />
-              </MDBBtn>
+              </IconButton>
             </section>
           </div>
         </div>
