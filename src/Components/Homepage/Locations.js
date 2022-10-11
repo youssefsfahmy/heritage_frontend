@@ -4,6 +4,8 @@ import alamein from "../../Images/alamein.png";
 import adminstartive from "../../Images/adminstartive.jpg";
 import newcairo from "../../Images/newcairo.jpg";
 import sokhna from "../../Images/sokhna.jpg";
+import northCoast from "../../Images/northcoast.jpg";
+import october from "../../Images/october.jpg";
 
 export default function Locations() {
   function activate() {
@@ -34,7 +36,7 @@ export default function Locations() {
         rel="stylesheet"
       />
 
-      <div className="gallery">
+      <div className="gallery reveal">
         <div className="gallery__row">
           <a href="https://unsplash.com/@oladimeg" className="gallery__link">
             <figure className="gallery__thumb">
@@ -54,7 +56,7 @@ export default function Locations() {
           >
             <figure className="gallery__thumb">
               <img
-                src="https://cdn.emaarmisr.com/wp-content/uploads/2020/03/Marassi-Aerials-1-scaled-1-1620x832.jpg"
+                src={northCoast}
                 alt="Portrait by Jessica Felicio"
                 className="gallery__image activate"
               />
@@ -79,7 +81,7 @@ export default function Locations() {
           <a href="https://unsplash.com/@noahbuscher" className="gallery__link">
             <figure className="gallery__thumb">
               <img
-                src="https://www.zed-egypt.com/Images/slide01.jpg"
+                src={october}
                 alt="Portrait by Noah Buscher"
                 className="gallery__image activate"
               />

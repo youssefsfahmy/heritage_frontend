@@ -11,15 +11,15 @@
 }
 .mainAboutHome .body1 {
   font-family: "Qanelas" !important;
-  font-size: 33px;
-  line-height: 33px;
+  font-size: 2.4vw;
+  line-height: 2.4vw;
   text-align: justify;
 }
 .mainAboutHome .body2 {
   color: #9497a1;
   font-family: "Qanelas light";
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 2vw;
+  line-height: 2vw;
 
   text-align: justify;
 }
@@ -29,7 +29,6 @@
 .follow {
   margin-top: 5vw;
   margin-bottom: 5vw;
-
   position: relative;
   transform: translateY(150px);
   opacity: 0;
