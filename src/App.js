@@ -33,6 +33,7 @@ function App() {
       <Router>
         <NavigationBar />
         <Routes>
+          <Route exact path="/heritage_frontend" element={<Homepage />}></Route>
           <Route exact path="/" element={<Homepage />}></Route>
           <Route exact path="/About" element={<AboutUs />}></Route>
           <Route exact path="/Contact" element={<ContactUs />}></Route>
