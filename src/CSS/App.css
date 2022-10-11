@@ -24,6 +24,8 @@
 .App {
   font-family: "Qanelas";
   text-align: center;
+  width: 100%;
+  max-width: 100%;
 }
 
 .App-logo {
@@ -60,11 +62,19 @@
     transform: rotate(360deg);
   }
 }
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
 
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
 :root {
-  font-family: "MyWebFont";
-
   --primary: #2b3c48;
-  --secondary: #9d5c63;
+  --secondary: #dfd6a7;
   --fullwidth: 100%;
 }

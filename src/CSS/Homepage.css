@@ -10,3 +10,14 @@ header {
   object-fit: cover;
   opacity: 0.7;
 }
+.sectiontitle {
+  font-size: 4vw;
+  margin-top: 4vw;
+}
+@media only screen and (max-width: 700px) {
+  .sectiontitle {
+    font-size: 7vw;
+    margin-top: 10vw;
+    margin-bottom: 2vw;
+  }
+}

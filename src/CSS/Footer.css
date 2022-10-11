@@ -1,4 +1,4 @@
-.Main-Div {
+.Main-Div-Footer {
   /* padding-top: 25vh;  
   min-height: 90vh; */
   min-height: 25vw;
@@ -27,7 +27,7 @@
   padding-left: 9%;
   padding-right: 9%;
   display: flex;
-  width: 37%;
+  width: 33%;
   min-height: 40vh;
   flex-direction: column;
   align-items: center;
@@ -54,7 +54,7 @@
   width: 8rem;
 }
 
-.icon {
+.Main-Div-Footer .icon {
   color: var(--primary) !important;
   margin: 0;
   width: 75% !important;
@@ -87,7 +87,7 @@
 }
 .m-1 {
   color: var(--primary) !important;
-  background-color: white !important;
+  background: white !important;
   transition: color 0.5s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.25s ease-in-out, box-shadow 0.15s ease-in-out !important;
   width: 1.65rem;

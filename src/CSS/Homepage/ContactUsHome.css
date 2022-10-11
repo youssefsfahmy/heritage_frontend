@@ -1,0 +1,122 @@
+.ContactUsHome {
+  text-align: left;
+  margin: 4vw;
+  display: flex;
+  box-shadow: 0 5px 28px rgb(0 0 0 / 25%), 0 15px 10px rgb(0 0 0 / 22%);
+  height: 80vh;
+}
+.ContactUsHome .left {
+  color: rgba(43, 60, 72, 0.8);
+  background-color: var(--secondary);
+  padding: 4%;
+
+  width: 33%;
+}
+.ContactUsHome .right {
+  display: inline-grid;
+  flex-direction: column;
+  color: rgba(43, 60, 72, 0.8);
+  padding: 4%;
+  width: 67%;
+}
+.ContactUsHome .text1 {
+  color: rgba(43, 60, 72, 1);
+  margin-bottom: 5%;
+  font-size: 2.2vw;
+}
+.ContactUsHome .text2 {
+  margin-bottom: 5%;
+  font-family: "Qanelas light";
+  font-size: 1.2vw;
+}
+.ContactUsHome .text3 {
+  margin-bottom: 5%;
+  display: flex;
+  font-size: 1.2vw;
+
+  font-family: "Qanelas light";
+}
+.ContactUsHome .textDiv {
+  margin-left: 1vw;
+}
+
+.ContactUsHome .m-1 {
+  background-color: transparent !important;
+  height: 3vw;
+  width: 3vw;
+  border-color: rgba(43, 60, 72, 0.5) !important;
+}
+
+.ContactUsHome .icon {
+  height: 1.5vw;
+  width: 1.5vw;
+}
+.TextField {
+  margin-bottom: 2vw;
+}
+.ContactUsHome form {
+  display: inline-grid;
+  flex-direction: column;
+}
+.ContactUsHome .buttonSubmit {
+  width: 13vw;
+  margin-top: 2vw;
+  background-color: rgba(43, 60, 72, 1);
+}
+.ContactUsHome .buttonSubmit:hover {
+  background-color: rgb(59, 85, 104);
+}
+.ContactUsHome .right .text1 {
+  height: 0;
+}
+@media only screen and (max-width: 700px) {
+  .ContactUsHome {
+    flex-direction: column-reverse;
+    height: fit-content;
+    margin: 3%;
+    width: 94%;
+  }
+  .ContactUsHome .left {
+    width: 100%;
+    padding: 6%;
+    height: 85vh;
+  }
+  .ContactUsHome .right {
+    padding: 6%;
+    height: 85vh;
+
+    width: 100%;
+  }
+  .ContactUsHome .text1 {
+    font-size: 8vw;
+  }
+  .ContactUsHome .text2 {
+    font-size: 6vw;
+  }
+  .ContactUsHome .text3 {
+    font-size: 4vw;
+  }
+  .ContactUsHome .textDiv {
+    margin-left: 5vw;
+  }
+
+  .ContactUsHome .m-1 {
+    height: 12.5vw;
+    width: 12.5vw;
+  }
+
+  .ContactUsHome .icon {
+    height: 7.5vw;
+    width: 7.5vw;
+  }
+  .ContactUsHome .textField {
+    color: rgba(43, 60, 72, 1);
+  }
+  .ContactUsHome form {
+  }
+  .ContactUsHome .buttonSubmit {
+    width: 37vw;
+    height: 13vw;
+    font-size: 3.25vw;
+  }
+}

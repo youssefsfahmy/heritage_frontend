@@ -29,6 +29,7 @@ a:hover {
 .offcanvas {
   background-color: var(--primary);
   z-index: 1028;
+  font-family: "Qanelas light";
 }
 .offcanvas-backdrop {
   z-index: 1025;
@@ -43,6 +44,7 @@ a:hover {
 .navbar-toggler {
   border: none;
   margin-bottom: 2.5%;
+  margin-bottom: -1vw;
 }
 .navbar-toggler:focus {
   border: none !important;

@@ -1,0 +1,78 @@
+.mainAboutHome {
+  display: flex;
+  height: fit-content;
+}
+.mainAboutHome .left {
+  width: 60%;
+}
+.mainAboutHome .right {
+  width: 40%;
+  padding-right: 10%;
+}
+.mainAboutHome .body1 {
+  font-family: "Qanelas" !important;
+  font-size: 33px;
+  line-height: 33px;
+  text-align: justify;
+}
+.mainAboutHome .body2 {
+  color: #9497a1;
+  font-family: "Qanelas light";
+  font-size: 25px;
+  line-height: 25px;
+
+  text-align: justify;
+}
+.mainAboutHome img {
+  width: 86%;
+}
+.follow {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.follow.active {
+  position: sticky;
+  top: 10vw;
+  bottom: 10vw;
+  transform: translateY(0);
+  opacity: 1;
+}
+/* .body1 .follow.active {
+  position: sticky;
+  top: 10vw;
+  bottom: 10vw;
+  transform: translateY(0);
+  opacity: 1;
+} */
+@media only screen and (max-width: 700px) {
+  .mainAboutHome {
+    display: inline;
+  }
+  .mainAboutHome .left {
+    width: 100%;
+  }
+  .mainAboutHome .right {
+    width: 100%;
+    padding: 5%;
+  }
+  .mainAboutHome .body1 {
+    font-size: 29px;
+    line-height: 33px;
+  }
+  .mainAboutHome .body2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .follow {
+    margin-top: 5vw;
+  }
+  .mainAboutHome img {
+    width: 90%;
+  }
+}

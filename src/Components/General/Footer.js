@@ -11,7 +11,7 @@ import IconButton from "@mui/material/IconButton";
 
 export default function Footer() {
   return (
-    <div className="Main-Div">
+    <div className="Main-Div-Footer">
       <div className="Upper-Div">
         <div className="Col1-Div">
           <img src={logo} alt="logo" className="Logo-Image" />
