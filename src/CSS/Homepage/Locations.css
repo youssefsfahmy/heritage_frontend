@@ -118,4 +118,17 @@
     filter: grayscale(0);
     transition: 0.3s;
   }
+  .gallery:hover .gallery__image {
+    filter: none;
+  }
+
+  .gallery__link:hover .gallery__image {
+    filter: none;
+  }
+  .gallery__link:hover .gallery__caption {
+    opacity: 1;
+  }
+  .gallery__image:hover {
+    transform: none;
+  }
 }

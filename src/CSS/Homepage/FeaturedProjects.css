@@ -206,4 +206,29 @@ a {
     /* font-weight: 400; */
     margin-left: 2px;
   }
+  .figureOverlay:hover {
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+    transform: none;
+
+    /* background-size: 175%; */
+  }
+  .figure:hover {
+    background-size: cover;
+  }
+  .figure:hover:after {
+    font-family: "Qanelas light";
+    content: none;
+    background-color: none;
+    color: white;
+    font-size: 22px;
+    z-index: 2;
+    transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .figure:hover .date {
+    bottom: 10px;
+  }
+  .figure:hover .figcaption {
+    transform: none;
+  }
 }
