@@ -1,14 +1,20 @@
 import React from "react";
 import logo from "../../Images/logo.png";
-import "../../CSS/NavLogo.css";
+import "../../CSS/General/NavLogo.css";
+import { useLocation } from "react-router-dom";
 
 export default function NavLogo() {
+  const { pathname } = useLocation();
+
   function changeCss() {
     var navElement = document.querySelector(".textDiv1");
     var navElement2 = document.querySelector(".imgLogo");
+    var changeVal = pathname === "/" ? 300 : 100;
 
-    this.scrollY > 300 ? changeCssBottom(navElement) : changeCssTop(navElement);
-    this.scrollY > 300
+    this.scrollY > changeVal
+      ? changeCssBottom(navElement)
+      : changeCssTop(navElement);
+    this.scrollY > changeVal
       ? changeCssBottom(navElement2)
       : changeCssTop(navElement2);
   }

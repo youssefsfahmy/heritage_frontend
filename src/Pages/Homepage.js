@@ -1,11 +1,11 @@
 import React from "react";
-import "../CSS/Homepage.css";
+import "../CSS/Pages/Homepage.css";
 
 import CarouselHome from "../Components/Homepage/CarouselHome";
 import AboutUsHome from "../Components/Homepage/AboutUsHome";
 import FeaturedProjects from "../Components/Homepage/FeaturedProjects";
 import Locations from "../Components/Homepage/Locations";
-import ContactUsHome from "../Components/Homepage/ContactUsHome1";
+import ContactUsHome from "../Components/Homepage/ContactUsHome";
 
 export default function Homepage() {
   return (

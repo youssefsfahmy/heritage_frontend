@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../../CSS/Footer.css";
+import "../../CSS/General/Footer.css";
 import logo from "../../Images/LogoWhite.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";

@@ -1,0 +1,34 @@
+.mainDiv {
+  transition: 0.25s;
+  display: flex;
+}
+.imgLogo {
+  transition: 0.25s;
+
+  width: 4rem;
+  margin-right: -0.7rem !important;
+}
+.textDiv {
+  align-self: center;
+}
+.textDiv1 {
+  transition: 0.25s;
+  font-family: "Qanelas light";
+  font-size: 0.7rem;
+  margin-top: -0.5rem;
+  text-align: left;
+  overflow: hidden;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media only screen and (max-width: 500px) {
+  .mainDiv {
+    margin-left: -1rem;
+  }
+}
+/* Change styles for span and cancel button on medium/small screens */
+@media only screen and (min-width: 500px) {
+}
+
+/* Change styles for span and cancel button on laptop screens */
+@media only screen and (min-width: 700px) {
+}

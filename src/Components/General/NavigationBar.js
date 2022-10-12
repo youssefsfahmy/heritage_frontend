@@ -4,13 +4,15 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import React from "react";
 import { Link } from "react-router-dom";
-import "../../CSS/BurgerMenu.css";
-import "../../CSS/NavigationBar.css";
+import "../../CSS/General/BurgerMenu.css";
+import "../../CSS/General/NavigationBar.css";
+import { useLocation } from "react-router-dom";
 
 import { useState } from "react";
 import NavLogo from "./NavLogo";
 
 function NavigationBar() {
+  const { pathname } = useLocation();
   const [isActive, setActive] = useState(false);
 
   const toggleClass = () => {
@@ -19,8 +21,10 @@ function NavigationBar() {
 
   function changeCss() {
     var navElement = document.querySelector(".navb");
-
-    this.scrollY > 300 ? changeCssBottom(navElement) : changeCssTop(navElement);
+    var changeVal = pathname === "/" ? 300 : 100;
+    this.scrollY > changeVal
+      ? changeCssBottom(navElement)
+      : changeCssTop(navElement);
   }
 
   function changeCssTop(navElement) {
@@ -94,26 +98,18 @@ function NavigationBar() {
             <Offcanvas.Header></Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link>
-                  <Link onClick={isActive ? toggleClass : ""} to="/">
-                    Home
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link onClick={isActive ? toggleClass : ""} to="/About">
-                    About
-                  </Link>
-                </Nav.Link>
-                <Nav.Link>
-                  <Link onClick={isActive ? toggleClass : ""} to="/Partners">
-                    Partners
-                  </Link>
-                </Nav.Link>{" "}
-                <Nav.Link>
-                  <Link onClick={isActive ? toggleClass : ""} to="/Contact">
-                    Contact
-                  </Link>
-                </Nav.Link>
+                <Link onClick={isActive ? toggleClass : ""} to="/">
+                  Home
+                </Link>
+                <Link onClick={isActive ? toggleClass : ""} to="/About">
+                  About
+                </Link>
+                <Link onClick={isActive ? toggleClass : ""} to="/Projects">
+                  Projects
+                </Link>
+                <Link onClick={isActive ? toggleClass : ""} to="/Contact">
+                  Contact
+                </Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

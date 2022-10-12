@@ -1,0 +1,15 @@
+.contactUsMainDiv {
+}
+.contactUsMainDiv .imageDiv {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  background-image: url(/static/media/aboutUsPage.c1d5d1a2.png);
+  background-color: var(--primary);
+  background-size: cover;
+  background-position: center;
+  place-items: center;
+  place-content: center;
+  color: white;
+  font-size: 2rem;
+}

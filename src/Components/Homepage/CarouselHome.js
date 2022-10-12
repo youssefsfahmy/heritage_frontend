@@ -4,7 +4,7 @@ import Carousel from "react-material-ui-carousel";
 import bck1 from "../../Images/bck1.jpg";
 import bck2 from "../../Images/bck6.jpg";
 import bck3 from "../../Images/bck3.jpg";
-import Animation from "./Animation2";
+import Animation from "./Animation";
 
 import { Paper } from "@mui/material";
 export default function CarouselHome() {
