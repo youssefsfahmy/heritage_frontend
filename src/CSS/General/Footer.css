@@ -110,6 +110,7 @@
   color: #9497a1 !important;
 }
 .text-white:hover {
+  cursor: pointer;
   color: var(--secondary) !important;
 }
 li {

@@ -34,11 +34,11 @@ export default function AboutUsHome() {
           </div>
           <br />
           <div className="body2">
-            In our name, you’ll find our ethos. Heritage represents our
-            strength, discipline & experience—while it represents our fluidity,
-            creativity, and drive to continually innovate. It’s the rare
-            combination of these elements that defines Heritage and the
-            partnerships we forge.
+            Heritage was founded on the grounds of honesty and integrity
+            ensuring that each client gets a very customized experience from the
+            minute they inquire to the minute they receive their keys to their
+            dream home. We combine a wide range of diverse services with unique
+            know-how to develop unparalleled outcomes.
           </div>
         </div>
       </div>

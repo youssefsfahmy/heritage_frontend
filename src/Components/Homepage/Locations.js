@@ -6,8 +6,11 @@ import newcairo from "../../Images/newcairo.jpg";
 import sokhna from "../../Images/sokhna.jpg";
 import northCoast from "../../Images/northcoast.jpg";
 import october from "../../Images/october.jpg";
+import { useNavigate } from "react-router-dom";
 
 export default function Locations() {
+  const navigate = useNavigate();
+
   function activate() {
     var reveals = document.querySelectorAll(".activate");
 
@@ -38,8 +41,14 @@ export default function Locations() {
 
       <div className="gallery reveal">
         <div className="gallery__row">
-          <a href="https://unsplash.com/@oladimeg" className="gallery__link">
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                console.log("toot");
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={alamein}
                 alt="Portrait by Oladimeji Odunsi"
@@ -50,11 +59,13 @@ export default function Locations() {
               </figcaption>
             </figure>
           </a>
-          <a
-            href="https://cdn.emaarmisr.com/wp-content/uploads/2020/03/Marassi-Aerials-1-scaled-1-1620x832.jpg"
-            className="gallery__link"
-          >
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={northCoast}
                 alt="Portrait by Jessica Felicio"
@@ -63,23 +74,33 @@ export default function Locations() {
               <figcaption className="gallery__caption">North Coast</figcaption>
             </figure>
           </a>
-          <a href="https://unsplash.com/@a2eorigins" className="gallery__link">
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={adminstartive}
                 alt="Portrait by Alex Perez"
                 className="gallery__image activate"
               />
               <figcaption className="gallery__caption">
-                New administrative Capital
+                New Administrative Capital
               </figcaption>
             </figure>
           </a>
         </div>
 
         <div className="gallery__row">
-          <a href="https://unsplash.com/@noahbuscher" className="gallery__link">
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={october}
                 alt="Portrait by Noah Buscher"
@@ -91,8 +112,13 @@ export default function Locations() {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@von_co" className="gallery__link">
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={newcairo}
                 alt="Portrait by Ivana Cajina"
@@ -102,8 +128,13 @@ export default function Locations() {
             </figure>
           </a>
 
-          <a href="https://unsplash.com/@samburriss" className="gallery__link">
-            <figure className="gallery__thumb">
+          <a className="gallery__link">
+            <figure
+              className="gallery__thumb"
+              onClick={() => {
+                navigate("/Projects");
+              }}
+            >
               <img
                 src={sokhna}
                 alt="Portrait by Sam Burriss"

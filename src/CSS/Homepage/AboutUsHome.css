@@ -28,8 +28,8 @@
   width: 86%;
 }
 .follow {
-  margin-top: 5vw;
-  margin-bottom: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
   position: relative;
   transform: translateY(150px);
   opacity: 0;
@@ -38,7 +38,7 @@
 
 .follow.active {
   position: sticky;
-  top: 10vw;
+  top: 8vw;
   bottom: 10vw;
   transform: translateY(0);
   opacity: 1;

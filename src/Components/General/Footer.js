@@ -4,10 +4,10 @@ import "../../CSS/General/Footer.css";
 import logo from "../../Images/LogoWhite.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import GoogleIcon from "@mui/icons-material/Google";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import IconButton from "@mui/material/IconButton";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Footer() {
   return (
@@ -18,18 +18,47 @@ export default function Footer() {
           <div>
             {" "}
             <section className="mb-4">
-              <IconButton className="m-1" href="#!">
+              <IconButton
+                className="m-1"
+                onClick={() => {
+                  window.open(
+                    "https://www.facebook.com/people/Heritage-Real-Estate/100078710004322/"
+                  );
+                }}
+              >
                 <FacebookIcon className="icon" />
               </IconButton>
-              <IconButton className="m-1" href="#!">
-                <TwitterIcon className="icon" />
+              <IconButton
+                className="m-1"
+                onClick={() => {
+                  window.open(
+                    "//api.whatsapp.com/send?phone=00201282041766&text=I would like to enquire about"
+                  );
+                  navigator.clipboard.writeText("01282041766");
+                }}
+              >
+                <WhatsAppIcon className="icon" />
               </IconButton>
 
-              <IconButton className="m-1" href="#!">
+              <IconButton
+                className="m-1"
+                onClick={() => {
+                  window.open(
+                    "https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw"
+                  );
+                }}
+              >
                 <GoogleIcon className="icon" />
               </IconButton>
 
-              <IconButton className="m-1" href="#!">
+              <IconButton
+                className="m-1"
+                onClick={() => {
+                  window.open(
+                    "https://www.instagram.com/heritagereinvestments/"
+                  );
+                }}
+              >
                 <InstagramIcon className="icon" />
               </IconButton>
 
@@ -70,18 +99,33 @@ export default function Footer() {
           <div className="Row-Header">Contact info</div>
           <ul className="list-unstyled mb-0">
             <li>
-              <a href="#!" className="text-white">
-                Heritage@info.com{" "}
+              <a href={"mailto:sales@heritage-eg.co"} className="text-white">
+                Sales@heritage-eg.co
               </a>
             </li>
             <li>
-              <a href="#!" className="text-white">
-                +201287666533
+              <a
+                onClick={() => {
+                  window.open(
+                    "//api.whatsapp.com/send?phone=00201282041766&text=I would like to enquire about"
+                  );
+                  navigator.clipboard.writeText("01282041766");
+                }}
+                className="text-white"
+              >
+                +201282041766
               </a>
             </li>
             <li>
-              <a href="#!" className="text-white">
-                14 new mango, new cairo, Egypt
+              <a
+                onClick={() => {
+                  window.open(
+                    `https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw`
+                  );
+                }}
+                className="text-white"
+              >
+                10 Abu Bakr El Sedik, Heliopolis, Cairo
               </a>
             </li>
           </ul>

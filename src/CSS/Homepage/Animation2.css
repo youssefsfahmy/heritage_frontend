@@ -51,7 +51,7 @@ a {
   position: relative;
   overflow: hidden;
   width: 6em;
-  color: #dfd6a7;
+  color: var(--secondary);
 }
 .scroller > span {
   position: absolute;

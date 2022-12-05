@@ -61,7 +61,7 @@
 .ContactUsHome .buttonSubmit {
   width: 10rem;
   margin-top: 2vw;
-  background-color: rgba(43, 60, 72, 1);
+  background-color: var(--primary);
   font-size: 0.75rem;
 }
 .ContactUsHome .buttonSubmit:hover {

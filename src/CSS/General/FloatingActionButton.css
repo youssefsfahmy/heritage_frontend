@@ -1,0 +1,12 @@
+.floatingButton {
+  position: fixed !important;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--secondary) !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .chatIcon {
+    font-size: 2rem !important;
+  }
+}

@@ -33,6 +33,7 @@
 }
 .gallery__image:hover {
   transform: scale(1.1);
+  cursor: pointer;
 }
 .gallery__caption {
   position: absolute;
@@ -72,6 +73,9 @@
     margin: 2px;
     overflow: hidden;
   }
+  .gallery__image:hover {
+    cursor: pointer;
+  }
   .gallery__link:hover .gallery__image {
     filter: grayscale(0);
   }
@@ -89,6 +93,7 @@
   }
   .gallery__image:hover {
     transform: scale(1.1);
+    cursor: pointer;
   }
   .gallery__caption {
     position: absolute;

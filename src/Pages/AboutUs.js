@@ -27,13 +27,12 @@ export default function AboutUs() {
     <div className="aboutUsMainDiv">
       <div className="imageDiv">ABOUT US</div>{" "}
       <div className="textDiv">
-        Heritage Real Estate Broker offers first class real estate services for
-        a wide base of clientele. Based in Cairo, Egypt and possessing a vast
-        client base with properties across Egypt, we are best placed to assist
-        diverse clients with different requirements. With our key values
-        apparent in our business model, we strive to achieve the highest level
-        of customer service by providing our customers what they require and
-        most of the times exceeding their expectations. <br />
+        Premium Estate agency specialized in renting, selling and managing
+        luxurious properties in Egypt. Heritage was founded on the grounds of
+        honesty and integrity ensuring that each client gets a very customized
+        experience from the minute they inquire to the minute they receive their
+        keys to their dream home. We combine a wide range of diverse services
+        with unique know-how to develop unparalleled outcomes. <br />
         <br />
         Heritage Real Estate Broker was established in 2018 in a small office in
         Leading Business Center consisting of only a handful of agents and
@@ -49,12 +48,11 @@ export default function AboutUs() {
             <hr></hr>
             <span>Vision</span>
           </div>
-          We have based our business on transparency and we envision ourselves
-          as the leading real estate brokerage company in Egypt, driven by
-          customer service, dedication and a passion for Real Estate. Our main
-          strength is our knowledge of the market and our dedication towards
-          customer satisfaction, which has helped clients meet their real estate
-          requirements.
+          Heritage is thriving to be a leading estate agency in Egypt, driven by
+          customer service, dedication and a passion for Real Estate. . We are
+          working to be the to-go-to agency when it comes to renting, selling
+          and reselling a real estate while eliminating the hassle that usually
+          comes with real estate transactions
         </div>
         <div className="col reveal sec1">
           <div className="title">
@@ -62,12 +60,13 @@ export default function AboutUs() {
             <hr></hr>
             <span>Mission</span>
           </div>
-          Our mission is to have a healthy growth as a company by providing the
-          highest level of service we possibly can, as well as offering to our
-          clients, the best properties from family homes through to astute
-          investment opportunities. We embrace our knowledge of local and
-          international Real Estate Market and this knowledge adds value to our
-          services and the Real Estate Industry.
+          Make real estate transactions hassle free through nurturing customers'
+          needs. Eliminating various options that usually confuse clients'
+          decisions. By providing the highest level of service we possibly can,
+          as well as offering to our clients, the best properties from family
+          homes through to astute investment opportunities. We embrace our
+          knowledge of local and international Real Estate Market and this
+          knowledge adds value to our services and the Real Estate Industry.
         </div>
         <div className="col reveal sec2">
           <div className="title">
@@ -75,10 +74,11 @@ export default function AboutUs() {
             <hr></hr>
             <span>Values</span>
           </div>
-          Our business is based on the principles of Transparency, Tenacity and
-          Trust and these are apparent in our business model, and our day to day
-          business operations. We keep the clients requirements and interest on
-          a priority and customer satisfaction is what we strive for.
+          Our business is based on the principles of Honesty. Integrity.
+          Punctuality. Reliability.building our reputation and these are
+          apparent in our business model, and our day to day business
+          operations. We keep the clients requirements and interest on a
+          priority and customer satisfaction is what we strive for.
         </div>
       </div>
       <div className="ourTeam reveal">
@@ -95,6 +95,10 @@ export default function AboutUs() {
           <div className="oneCard reveal">
             {" "}
             <EmployeeCard
+              name="Ahmed AbdAllah"
+              position="CEO"
+              email="ahmed.abdallah.attia@gmail.com"
+              phone="01000460468"
               image={employeeCard1}
               handleExpandClick={handleExpandClick}
               expanded={expanded[0]}
@@ -103,6 +107,10 @@ export default function AboutUs() {
           <div className="oneCard reveal sec1">
             {" "}
             <EmployeeCard
+              name="Ahmed El Kady"
+              position="Sales Executive"
+              email="aboallaaelkady@gmail.com"
+              phone="01099929298"
               image={employeeCard2}
               handleExpandClick={handleExpandClick1}
               expanded={expanded[1]}
@@ -112,6 +120,8 @@ export default function AboutUs() {
           <div className="oneCard reveal sec2">
             {" "}
             <EmployeeCard
+              name="Martin Yanni"
+              position="CTO"
               image={employeeCard3}
               handleExpandClick={handleExpandClick2}
               expanded={expanded[2]}

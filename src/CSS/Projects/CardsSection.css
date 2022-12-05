@@ -1,0 +1,95 @@
+.mainDivProjects {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 3vw;
+}
+.cardsDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 3vw;
+  /* padding-bottom: 10vw; */
+}
+
+.cardsDiv .card {
+  background-color: red !important;
+  width: 30vw !important;
+  height: 20vw !important;
+  cursor: pointer;
+}
+.cardsDiv .cardDiv2 {
+  padding-top: 2.5vw;
+  padding-bottom: 2.5vw;
+}
+
+.mainDivProjects .text {
+  color: var(--primary);
+  opacity: 0.8;
+  font-size: 1rem;
+  letter-spacing: 0.08vw;
+}
+.emailme {
+  color: blue;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.logoProjectCard {
+  height: 7vw;
+  margin-top: 6vw;
+}
+.divProjectCard {
+  width: 30vw;
+  height: 20vw;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  place-content: center;
+  text-align: center;
+}
+.divProjectCard .textDiv {
+  color: white;
+  text-align: center;
+  line-height: 2rem;
+}
+.divProjectCard .textDiv .name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.divProjectCard .textDiv .slogan {
+  font-size: 1rem;
+}
+.parallax-card-layers {
+  border-radius: 0 !important;
+}
+.parallax-card-shine {
+  border-radius: 0 !important;
+}
+.theCard {
+  width: 30vw;
+  height: 20vw;
+  background-position: center !important;
+  background-size: cover !important;
+}
+@media only screen and (max-width: 700px) {
+  .divProjectCard {
+    width: 88vw;
+    height: 60vw;
+  }
+  .cardsDiv {
+    display: inline-block;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 3vw;
+    padding-right: 6vw;
+    padding-left: 6vw;
+  }
+  .cardsDiv .card {
+    background-color: red !important;
+    width: 88vw !important;
+    height: 60vw !important;
+    cursor: pointer;
+  }
+  .parallax-card {
+    margin-bottom: 5vw;
+  }
+}

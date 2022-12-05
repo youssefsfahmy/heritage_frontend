@@ -11,6 +11,8 @@ import Projects from "./Pages/Projects";
 import Footer from "./Components/General/Footer";
 import NavigationBar from "./Components/General/NavigationBar";
 import ScrollToTop from "./Components/General/ScrollToTop";
+import FloatingActionButton from "./Components/General/FloatingActionButton";
+// import Mivida from "./Pages/Projects/Mivida";
 function App() {
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
@@ -33,14 +35,15 @@ function App() {
     <div className="App">
       <Router>
         <NavigationBar />
+        <FloatingActionButton />
         <ScrollToTop />
         <Routes>
           <Route exact path="/heritage_frontend" element={<Homepage />}></Route>
           <Route exact path="/" element={<Homepage />}></Route>
           <Route exact path="/About" element={<AboutUs />}></Route>
           <Route exact path="/Contact" element={<ContactUs />}></Route>
-          <Route exact path="/Project" element={<Partner />}></Route>
           <Route exact path="/Projects" element={<Projects />}></Route>
+          <Route exact path="/Project" element={<Partner />}></Route>
         </Routes>
         <Footer />
       </Router>

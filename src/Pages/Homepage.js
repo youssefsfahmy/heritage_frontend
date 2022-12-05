@@ -17,7 +17,7 @@ export default function Homepage() {
       <div className="sectiontitle">LOCATIONS</div>
       <Locations />
       <div className="sectiontitle">CONTACT US</div>
-      <ContactUsHome />
+      <ContactUsHome reveal={true} />
     </div>
   );
 }

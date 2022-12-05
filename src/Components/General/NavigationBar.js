@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 import "../../CSS/General/BurgerMenu.css";
 import "../../CSS/General/NavigationBar.css";
 import { useLocation } from "react-router-dom";
-
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NavLogo from "./NavLogo";
 
 function NavigationBar() {
   const { pathname } = useLocation();
   const [isActive, setActive] = useState(false);
+  const [isFixed, setFixed] = useState(false);
 
   const toggleClass = () => {
     setActive(!isActive);
@@ -21,32 +21,71 @@ function NavigationBar() {
 
   function changeCss() {
     var navElement = document.querySelector(".navb");
-    var changeVal = pathname === "/" ? 300 : 100;
-    this.scrollY > changeVal
-      ? changeCssBottom(navElement)
-      : changeCssTop(navElement);
+    var navElement1 = document.querySelector(".projectHeader");
+
+    if (navElement) {
+      var changeVal = pathname === "/" ? 300 : 100;
+      this.scrollY > changeVal
+        ? changeCssBottom(navElement, navElement1)
+        : changeCssTop(navElement, navElement1);
+    }
   }
 
-  function changeCssTop(navElement) {
+  function changeCssTop(navElement, navElement1) {
     navElement.style.backgroundColor = "rgba(43 ,60, 72, 0)";
     navElement.style.borderBottomColor = "rgba(79, 79, 79, 0)";
+    navElement1.style.opacity = 0;
+    navElement1.style.transitionDelay = "0s";
+
+    // navElement.style.backgroundColor = "rgba(1, 54, 96, 0)";
+    // navElement.style.borderBottomColor = "rgba(212, 174, 82, 0)";
     navElement.style.paddingTop = "2rem";
   }
 
-  // function changeCssMiddle(navElement, scrollY) {
-  //   var position = (scrollY - 200) / 300;
-  //   navElement.style.backgroundColor = `rgba(43 ,60, 72, ${position}`;
-  //   navElement.style.borderBottomColor = `rgba(79, 79, 79, ${position}`;
-  //   navElement.style.paddingTop = `${2.5 - position * 2}rem`;
-  // }
-
-  function changeCssBottom(navElement) {
+  function changeCssBottom(navElement, navElement1) {
     navElement.style.backgroundColor = "rgba(43 ,60, 72, 1)";
     navElement.style.borderBottomColor = "rgba(79, 79, 79, 1)";
+    navElement1.style.transitionDelay = "0.15s";
+
+    navElement1.style.opacity = 1;
+
+    // navElement.style.backgroundColor = "rgba(1, 54, 96, 1)";
+    // navElement.style.borderBottomColor = "rgba(212, 174, 82, 1)";
     navElement.style.paddingTop = "0.5rem";
   }
 
   window.addEventListener("scroll", changeCss, false);
+  useEffect(() => {
+    if (pathname.includes("/Project/")) {
+      if (!isFixed) {
+        switch (pathname) {
+          case "/Project/almazabay":
+            setFixed("ALMAZA BAY");
+            break;
+          case "/Project/bellevie":
+            setFixed("BELLE VIE");
+            break;
+          case "/Project/june":
+            setFixed("JUNE");
+            break;
+          case "/Project/msquared":
+            setFixed("M SQUARED");
+            break;
+          case "/Project/icity":
+            setFixed("I CITY");
+            break;
+          case "/Project/owest":
+            setFixed("O WEST");
+            break;
+          default:
+            break;
+        }
+      }
+    } else {
+      setFixed(null);
+    }
+  }, [pathname]);
+
   return (
     <>
       <Navbar
@@ -54,7 +93,12 @@ function NavigationBar() {
         collapseOnSelect
         expand="sm"
         variant="dark"
-        className="navb"
+        className={"navb"}
+        style={{
+          backgroundColor: isFixed ? "rgba(1, 54, 96, 1)" : "",
+          borderBottomColor: isFixed ? "rgba(212, 174, 82, 1)" : "",
+          paddingTop: isFixed ? "0.5rem" : "",
+        }}
       >
         <Container fluid>
           <Navbar.Brand href="/">
@@ -112,8 +156,16 @@ function NavigationBar() {
                 </Link>
               </Nav>
             </Offcanvas.Body>
-          </Navbar.Offcanvas>
-        </Container>
+          </Navbar.Offcanvas>{" "}
+        </Container>{" "}
+        <div
+          className="projectHeader"
+          style={{ visibility: isFixed ? "visible" : "hidden" }}
+        >
+          {" "}
+          {isFixed}
+          <div className="projectLogo"></div>
+        </div>
       </Navbar>
     </>
   );

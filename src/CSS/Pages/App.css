@@ -114,6 +114,8 @@
   --primary: #2b3c48;
   --secondary: #dfd6a7;
   --fullwidth: 100%;
+  /* --primary: rgb(1, 54, 96);
+  --secondary: #d4ae52; */
 }
 html {
   font-size: 20px;
