@@ -1,11 +1,11 @@
 import React from "react";
 import "../../CSS/Homepage/Locations.css";
-import alamein from "../../Images/alamein.png";
-import adminstartive from "../../Images/adminstartive.jpg";
-import newcairo from "../../Images/newcairo.jpg";
-import sokhna from "../../Images/sokhna.jpg";
-import northCoast from "../../Images/northcoast.jpg";
-import october from "../../Images/october.jpg";
+// import alamein from "../../Images/alamein.png";
+// import adminstartive from "../../Images/adminstartive.jpg";
+// import newcairo from "../../Images/newcairo.jpg";
+// import sokhna from "../../Images/";
+// import northCoast from "../../Images/northcoast.jpg";
+// import october from "../../Images/october.jpg";
 import { useNavigate } from "react-router-dom";
 
 export default function Locations() {
@@ -50,7 +50,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={alamein}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/alamein.png"
+                }
                 alt="Portrait by Oladimeji Odunsi"
                 className="gallery__image activate"
               />
@@ -67,7 +69,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={northCoast}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/northcoast.jpg"
+                }
                 alt="Portrait by Jessica Felicio"
                 className="gallery__image activate"
               />
@@ -82,7 +86,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={adminstartive}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/adminstartive.jpg"
+                }
                 alt="Portrait by Alex Perez"
                 className="gallery__image activate"
               />
@@ -102,7 +108,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={october}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/october.jpg"
+                }
                 alt="Portrait by Noah Buscher"
                 className="gallery__image activate"
               />
@@ -120,7 +128,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={newcairo}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/newcairo.jpg"
+                }
                 alt="Portrait by Ivana Cajina"
                 className="gallery__image activate"
               />
@@ -136,7 +146,9 @@ export default function Locations() {
               }}
             >
               <img
-                src={sokhna}
+                src={
+                  "https://heritage-eg.s3.amazonaws.com/WebsiteImages/sokhna.jpg"
+                }
                 alt="Portrait by Sam Burriss"
                 className="gallery__image activate"
               />

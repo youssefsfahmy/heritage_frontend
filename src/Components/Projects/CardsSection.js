@@ -4,14 +4,6 @@ import "../../CSS/Projects/CardsSection.css";
 import ProjectCard from "./ProjectCard";
 
 import { useNavigate } from "react-router-dom";
-import img1 from "../../Images/hero.png";
-import img2 from "../../Images/Belle-Vie.png";
-import img3 from "../../Images/june.jpg";
-import img4 from "../../Images/trio.jpg";
-import img5 from "../../Images/O-West-Cairo.jpg";
-import img6 from "../../Images/icity.jpg";
-// import logo2 from "../../Images/LogoWhite.png";
-// import logo3 from "../../Images/LogoWhite.png";
 
 export default function CardsSection() {
   const navigate = useNavigate();
@@ -27,7 +19,7 @@ export default function CardsSection() {
         <ProjectCard
           name="ALMAZA BAY"
           slogan="Your ultimate sanctuary"
-          src1={img1}
+          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/hero.png"}
           height={"8rem"}
           marginTop={"5rem"}
           color={"rgb(255,255,255,0.3)"}
@@ -39,7 +31,9 @@ export default function CardsSection() {
         <ProjectCard
           name="BELLE VIE"
           slogan="Life is beautiful"
-          src1={img2}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/WebsiteImages/Belle-Vie.png"
+          }
           height={"8rem"}
           marginTop={"5rem"}
           color={"rgb(250,158,35,0.4)"}
@@ -51,7 +45,7 @@ export default function CardsSection() {
         <ProjectCard
           name="JUNE"
           slogan="Where it’s always summer"
-          src1={img3}
+          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/june.jpg"}
           color={"rgb(128 110 0 / 50%)"}
           height={"8rem"}
           marginTop={"5rem"}
@@ -64,7 +58,7 @@ export default function CardsSection() {
         <ProjectCard
           name="Trio"
           slogan="Inspiration That Changes Perceptions"
-          src1={img4}
+          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/trio.jpg"}
           height={"8rem"}
           marginTop={"5rem"}
           onClick={() => {
@@ -76,7 +70,9 @@ export default function CardsSection() {
         <ProjectCard
           name="O WEST"
           slogan="A true wholesome town experience"
-          src1={img5}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/WebsiteImages/O-West-Cairo.jpg"
+          }
           height={"8rem"}
           marginTop={"5rem"}
           color={"rgb(40 68 60 / 25%)"}
@@ -88,7 +84,7 @@ export default function CardsSection() {
         <ProjectCard
           name="MOUNTAIN VIEW ICITY"
           slogan="A City Within A City"
-          src1={img6}
+          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/icity.jpg"}
           color={"rgb(79 110 191 / 50%)"}
           height={"8rem"}
           marginTop={"4rem"}

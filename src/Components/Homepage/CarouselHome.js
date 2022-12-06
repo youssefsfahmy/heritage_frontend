@@ -1,9 +1,7 @@
 import React from "react";
 import "../../CSS/Homepage/HomeCarousel.css";
 import Carousel from "react-material-ui-carousel";
-import bck1 from "../../Images/bck1.jpg";
-import bck2 from "../../Images/bck6.jpg";
-import bck3 from "../../Images/bck3.jpg";
+
 import Animation from "./Animation";
 
 import { Paper } from "@mui/material";
@@ -17,17 +15,35 @@ export default function CarouselHome() {
       <Carousel height="100vh" autoPlay={true} interval={7000} duration={1000}>
         <Paper>
           <header>
-            <img alt="img" className="image1" src={bck1} />
+            <img
+              alt="img"
+              className="image1"
+              src={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/bck1.jpg"
+              }
+            />
           </header>
         </Paper>
         <Paper>
           <header>
-            <img alt="img" className="image2" src={bck2} />
+            <img
+              alt="img"
+              className="image2"
+              src={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/bck6.jpg"
+              }
+            />
           </header>
         </Paper>
         <Paper>
           <header>
-            <img alt="img" className="image3" src={bck3} />
+            <img
+              alt="img"
+              className="image3"
+              src={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/bck3.jpg"
+              }
+            />
           </header>
         </Paper>
       </Carousel>

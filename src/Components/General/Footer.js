@@ -1,7 +1,6 @@
 import React from "react";
 
 import "../../CSS/General/Footer.css";
-import logo from "../../Images/LogoWhite.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GoogleIcon from "@mui/icons-material/Google";
@@ -14,7 +13,13 @@ export default function Footer() {
     <div className="Main-Div-Footer">
       <div className="Upper-Div">
         <div className="Col1-Div">
-          <img src={logo} alt="logo" className="Logo-Image" />
+          <img
+            src={
+              "https://heritage-eg.s3.amazonaws.com/WebsiteImages/LogoWhite.png"
+            }
+            alt="logo"
+            className="Logo-Image"
+          />
           <div>
             {" "}
             <section className="mb-4">

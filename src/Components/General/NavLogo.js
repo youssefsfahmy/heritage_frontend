@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../Images/logo.png";
 import "../../CSS/General/NavLogo.css";
 import { useLocation } from "react-router-dom";
 
@@ -36,7 +35,11 @@ export default function NavLogo() {
 
   return (
     <div className="mainDiv">
-      <img src={logo} alt="logo" className={"imgLogo"}></img>
+      <img
+        src={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/logo.png"}
+        alt="logo"
+        className={"imgLogo"}
+      ></img>
       <div className="textDiv">
         <div>HERITAGE</div>
         <div className={"textDiv1"}>REAL ESTATE</div>

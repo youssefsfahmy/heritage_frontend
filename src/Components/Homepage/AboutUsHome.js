@@ -1,6 +1,5 @@
 import React from "react";
 import "../../CSS/Homepage/AboutUsHome.css";
-import aboutUsImg from "../../Images/aboutus.png";
 
 export default function AboutUsHome() {
   function follow() {
@@ -24,7 +23,10 @@ export default function AboutUsHome() {
     <div className="mainAboutHome">
       {" "}
       <div className="left">
-        <img src={aboutUsImg} alt="alt" />{" "}
+        <img
+          src={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/aboutus.png"}
+          alt="alt"
+        />{" "}
       </div>
       <div className="right">
         <div className="follow">

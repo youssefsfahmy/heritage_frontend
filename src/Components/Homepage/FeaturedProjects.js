@@ -1,9 +1,6 @@
 import React from "react";
 import "../../CSS/Homepage/FeaturedProjects.css";
-import BelleVie from "../../Images/Belle-Vie.png";
-import Owest from "../../Images/Owest.png";
-import img1 from "../../Images/june.jpg";
-import img2 from "../../Images/icity.jpg";
+
 import FeaturedProjectCard from "./FeaturedProjectCard";
 export default function FeaturedProjects() {
   return (
@@ -12,7 +9,9 @@ export default function FeaturedProjects() {
         reveal={0}
         class="reveal"
         content="toot"
-        photo={BelleVie}
+        photo={
+          "https://heritage-eg.s3.amazonaws.com/WebsiteImages/Belle-Vie.png"
+        }
         developer="Emaar Deveopement"
         name="BELLE VIE"
         description="Meticulously designed to create a joie de vivre experience that lives up to its name the beautiful life in French."
@@ -20,7 +19,7 @@ export default function FeaturedProjects() {
       />
       <FeaturedProjectCard
         reveal={1}
-        photo={Owest}
+        photo={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/Owest.png"}
         developer="Orascom Deveopement"
         name="O WEST"
         description="O West is set to rise as a beacon of integrated living, a true wholesome town experience."
@@ -28,7 +27,7 @@ export default function FeaturedProjects() {
       />
       <FeaturedProjectCard
         reveal={2}
-        photo={img1}
+        photo={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/june.jpg"}
         developer="Sodic Deveopement"
         name="June"
         description="The Miami-inspired June offers a wide range of neighborhoods, Where it’s always summer."
@@ -36,7 +35,7 @@ export default function FeaturedProjects() {
       />
       <FeaturedProjectCard
         reveal={3}
-        photo={img2}
+        photo={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/icity.jpg"}
         developer="Mountain View Deveopement"
         name="I City"
         description="A stress-free zone with a unique lagoon beach park living experience."

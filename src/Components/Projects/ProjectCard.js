@@ -17,7 +17,7 @@ import "../../CSS/Projects/CardsSection.css";
 export default function ProjectCard(props) {
   return (
     <Card
-      href="https://web.i12.lirten.com/home"
+      // href="https://web.i12.lirten.com/home"
       style={{
         backgroundImage: `url(${props.src1})`,
 

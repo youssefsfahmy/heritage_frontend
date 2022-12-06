@@ -1,9 +1,6 @@
 import * as React from "react";
 import EmployeeCard from "../Components/AboutUs/EmployeeCard";
 import "../CSS/Pages/AboutUs.css";
-import employeeCard1 from "../Images/employeeCard1.jpg";
-import employeeCard2 from "../Images/employeeCard2.jpg";
-import employeeCard3 from "../Images/employeeCard3.jpg";
 
 export default function AboutUs() {
   const [expanded, setExpanded] = React.useState([false, false, false]);
@@ -99,10 +96,24 @@ export default function AboutUs() {
               position="CEO"
               email="ahmed.abdallah.attia@gmail.com"
               phone="01000460468"
-              image={employeeCard1}
+              image={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard1.jpg"
+              }
               handleExpandClick={handleExpandClick}
               expanded={expanded[0]}
             />{" "}
+          </div>{" "}
+          <div className="oneCard reveal sec2">
+            {" "}
+            <EmployeeCard
+              name="Martin Yanni"
+              position="CTO"
+              image={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard2.jpg"
+              }
+              handleExpandClick={handleExpandClick2}
+              expanded={expanded[2]}
+            />
           </div>
           <div className="oneCard reveal sec1">
             {" "}
@@ -111,21 +122,12 @@ export default function AboutUs() {
               position="Sales Executive"
               email="aboallaaelkady@gmail.com"
               phone="01099929298"
-              image={employeeCard2}
+              image={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
+              }
               handleExpandClick={handleExpandClick1}
               expanded={expanded[1]}
             />{" "}
-          </div>
-
-          <div className="oneCard reveal sec2">
-            {" "}
-            <EmployeeCard
-              name="Martin Yanni"
-              position="CTO"
-              image={employeeCard3}
-              handleExpandClick={handleExpandClick2}
-              expanded={expanded[2]}
-            />
           </div>
         </div>
       </div>
