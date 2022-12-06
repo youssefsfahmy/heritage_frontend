@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function FeaturedProjectCard(props) {
+  const navigate = useNavigate();
+
   return (
     <div
       className={`figureOverlay ${
@@ -13,6 +16,9 @@ export default function FeaturedProjectCard(props) {
           : "reveal"
       }`}
       style={{ backgroundImage: `url(${props.photo}` }}
+      onClick={() => {
+        navigate(props.link);
+      }}
     >
       <div className="figure" style={{ content: props.content }}>
         <div class="date">
