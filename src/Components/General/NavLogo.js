@@ -17,11 +17,16 @@ export default function NavLogo() {
         : changeCssTop(navElement);
       this.scrollY > changeVal
         ? changeCssBottom(navElement2)
-        : changeCssTop(navElement2);
+        : changeCssTop1(navElement2);
     }
   }
   function changeCssTop(navElement) {
-    navElement.style.height = "auto";
+    navElement.style.height = "1.5rem";
+    navElement.style.width = "4rem";
+    navElement.style.visibility = "";
+  }
+  function changeCssTop1(navElement) {
+    navElement.style.height = "4rem";
     navElement.style.width = "4rem";
     navElement.style.visibility = "";
   }
