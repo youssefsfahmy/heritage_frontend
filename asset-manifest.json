@@ -1,18 +1,20 @@
 {
-  "main.css": "/heritage_frontend/static/css/main.d3fcec82.chunk.css",
-  "main.js": "/heritage_frontend/static/js/main.7f18b04b.chunk.js",
-  "main.js.map": "/heritage_frontend/static/js/main.7f18b04b.chunk.js.map",
-  "static/js/1.58b94482.chunk.js": "/heritage_frontend/static/js/1.58b94482.chunk.js",
-  "static/js/1.58b94482.chunk.js.map": "/heritage_frontend/static/js/1.58b94482.chunk.js.map",
-  "static/css/2.c0b38006.chunk.css": "/heritage_frontend/static/css/2.c0b38006.chunk.css",
-  "static/js/2.3ad7d933.chunk.js": "/heritage_frontend/static/js/2.3ad7d933.chunk.js",
-  "static/js/2.3ad7d933.chunk.js.map": "/heritage_frontend/static/js/2.3ad7d933.chunk.js.map",
-  "runtime~main.js": "/heritage_frontend/static/js/runtime~main.3c94cabc.js",
-  "runtime~main.js.map": "/heritage_frontend/static/js/runtime~main.3c94cabc.js.map",
-  "static/media/App.css": "/heritage_frontend/static/media/Qanelas-BoldItalic.20ef2840.otf",
-  "static/css/2.c0b38006.chunk.css.map": "/heritage_frontend/static/css/2.c0b38006.chunk.css.map",
-  "static/css/main.d3fcec82.chunk.css.map": "/heritage_frontend/static/css/main.d3fcec82.chunk.css.map",
-  "index.html": "/heritage_frontend/index.html",
-  "precache-manifest.f5019edb0540136fe16cb0deeee7a9af.js": "/heritage_frontend/precache-manifest.f5019edb0540136fe16cb0deeee7a9af.js",
-  "service-worker.js": "/heritage_frontend/service-worker.js"
+  "files": {
+    "main.css": "/heritage_frontend/static/css/main.aff4e862.css",
+    "main.js": "/heritage_frontend/static/js/main.0872e3b9.js",
+    "static/js/787.5c7846f1.chunk.js": "/heritage_frontend/static/js/787.5c7846f1.chunk.js",
+    "static/media/Qanelas-BoldItalic.otf": "/heritage_frontend/static/media/Qanelas-BoldItalic.d5ece76f30d8aa9cb06b.otf",
+    "static/media/Qanelas-MediumItalic.otf": "/heritage_frontend/static/media/Qanelas-MediumItalic.518698ec54823020ab3f.otf",
+    "static/media/Qanelas-Bold.otf": "/heritage_frontend/static/media/Qanelas-Bold.40cd99934317a5a45ffa.otf",
+    "static/media/Qanelas-Medium.otf": "/heritage_frontend/static/media/Qanelas-Medium.bfedc288050ce7d1fdfe.otf",
+    "static/media/Qanelas-Light.otf": "/heritage_frontend/static/media/Qanelas-Light.5a3398c08f4d2394fdf8.otf",
+    "index.html": "/heritage_frontend/index.html",
+    "main.aff4e862.css.map": "/heritage_frontend/static/css/main.aff4e862.css.map",
+    "main.0872e3b9.js.map": "/heritage_frontend/static/js/main.0872e3b9.js.map",
+    "787.5c7846f1.chunk.js.map": "/heritage_frontend/static/js/787.5c7846f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff4e862.css",
+    "static/js/main.0872e3b9.js"
+  ]
 }
