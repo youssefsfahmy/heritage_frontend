@@ -103,6 +103,20 @@ export default function AboutUs() {
               expanded={expanded[0]}
             />{" "}
           </div>{" "}
+          <div className="oneCard reveal sec1">
+            {" "}
+            <EmployeeCard
+              name="Ahmed El Kady"
+              position="CEO"
+              email="aboallaaelkady@gmail.com"
+              phone="01099929298"
+              image={
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
+              }
+              handleExpandClick={handleExpandClick1}
+              expanded={expanded[1]}
+            />{" "}
+          </div>
           <div className="oneCard reveal sec2">
             {" "}
             <EmployeeCard
@@ -114,20 +128,6 @@ export default function AboutUs() {
               handleExpandClick={handleExpandClick2}
               expanded={expanded[2]}
             />
-          </div>
-          <div className="oneCard reveal sec1">
-            {" "}
-            <EmployeeCard
-              name="Ahmed El Kady"
-              position="Sales Executive"
-              email="aboallaaelkady@gmail.com"
-              phone="01099929298"
-              image={
-                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
-              }
-              handleExpandClick={handleExpandClick1}
-              expanded={expanded[1]}
-            />{" "}
           </div>
         </div>
       </div>
