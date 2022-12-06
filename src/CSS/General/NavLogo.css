@@ -5,6 +5,7 @@
 .imgLogo {
   transition: 0.25s;
   width: 4rem;
+  height: 4rem;
   margin-right: -0.7rem !important;
 }
 .imgLogoFixed {
