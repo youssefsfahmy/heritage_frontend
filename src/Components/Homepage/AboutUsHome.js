@@ -24,7 +24,7 @@ export default function AboutUsHome() {
       {" "}
       <div className="left">
         <img
-          src={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/aboutus.png"}
+          src={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/aboutus.jpg"}
           alt="alt"
         />{" "}
       </div>
