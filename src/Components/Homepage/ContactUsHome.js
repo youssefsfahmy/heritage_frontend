@@ -40,6 +40,7 @@ export default function ContactUsHome(props) {
         console.log("FAILED...", err);
       });
     navigate("/");
+    window.scrollTo(0, 0);
   };
   return (
     <div className={props.reveal ? "ContactUsHome reveal" : "ContactUsHome "}>
@@ -117,6 +118,20 @@ export default function ContactUsHome(props) {
             fullWidth
             oninvalid="this.setCustomValidity('Enter User Name Here')"
             inputProps={{ pattern: "01[0-9]{9}" }}
+          />
+          <TextField
+            className="textField"
+            id="standard-basic"
+            name="email"
+            label="Email"
+            variant="standard"
+            value={toSend.email}
+            onChange={handleChange}
+            margin="dense"
+            required
+            fullWidth
+            oninvalid="this.setCustomValidity('Enter User Name Here')"
+            type={"email"}
           />
           <TextField
             className="textField"

@@ -12,7 +12,7 @@ export default function CardsSection() {
     <div className="mainDivProjects" id={"projects"}>
       <br /> <br />
       <span className="text">
-        Heritage partners with prestigious developers all arround egypt. Here is
+        Heritage partners with prestigious developers all around Egypt. Here is
         a list of our partnered projects.
       </span>
       <div className="cardsDiv">
@@ -101,7 +101,7 @@ export default function CardsSection() {
             navigate("/Contact");
           }}
         >
-          <span className="emailme">Contact us.</span>
+          <span className="emailme"> Contact us.</span>
         </a>
       </span>
       <br />

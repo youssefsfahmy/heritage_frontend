@@ -4,6 +4,8 @@ import Button from "@mui/material/Button";
 import Modal from "@mui/material/Modal";
 import TextField from "@mui/material/TextField";
 import { send } from "emailjs-com";
+import { useNavigate } from "react-router-dom";
+
 // import { useNavigate } from "react-router-dom";
 
 const style = {
@@ -26,6 +28,8 @@ const style = {
 };
 
 export default function ModalDownload(props) {
+  const navigate = useNavigate();
+
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
@@ -33,6 +37,7 @@ export default function ModalDownload(props) {
     from_name: "",
     to_name: "Sales Team",
     number: "",
+    email: "",
     message: `Interest in ${props.Copyrighting.name}`,
     reply_to: "",
   });
@@ -60,6 +65,7 @@ export default function ModalDownload(props) {
     window.open(
       `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}-pdf.pdf`
     );
+    navigate("/Projects");
   };
 
   return (
@@ -106,6 +112,20 @@ export default function ModalDownload(props) {
               fullWidth
               oninvalid="this.setCustomValidity('Enter User Name Here')"
               inputProps={{ pattern: "01[0-9]{9}" }}
+            />
+            <TextField
+              className="textField"
+              id="standard-basic"
+              label="Email"
+              name="email"
+              value={toSend.email}
+              variant="standard"
+              margin="dense"
+              required
+              onChange={handleChange}
+              fullWidth
+              oninvalid="this.setCustomValidity('Enter User Name Here')"
+              type={"email"}
             />
 
             <Button type="submit" variant="outlined" className="buttonBrochure">
