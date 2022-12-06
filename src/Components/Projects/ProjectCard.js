@@ -1,19 +1,9 @@
 import React from "react";
-import Card from "react-animated-3d-card";
-import "../../CSS/Projects/CardsSection.css";
-// import { isMobile } from "react-device-detect";
+// import Card from "react-animated-3d-card";
+import Card from "@mui/material/Card";
 
-// const useStyles = makeStyles({
-//   logo: {
-//     height: isMobile ? "20vw" : "7vw",
-//     marginTop: isMobile ? "20vw" : "6vw",
-//   },
-//   div: {
-//     //backgroundColor: "rgb(250,158,35,0.3)",
-//     width: isMobile ? "88w" : "30vw",
-//     height: isMobile ? "59vw" : "20vw",
-//   },
-// });
+import "../../CSS/Projects/CardsSection.css";
+
 export default function ProjectCard(props) {
   return (
     <Card

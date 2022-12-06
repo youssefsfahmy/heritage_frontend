@@ -65,22 +65,12 @@
   border-radius: 0 !important;
 }
 .theCard {
-  cursor: pointer;
-
   width: 30vw;
   height: 20vw;
   background-position: center !important;
   background-size: cover !important;
 }
 @media only screen and (max-width: 700px) {
-  .theCard {
-    width: 100%;
-    height: 100%;
-    background-position: center !important;
-    background-size: cover !important;
-    margin-top: 3vw;
-    cursor: pointer;
-  }
   .divProjectCard {
     width: 88vw;
     height: 60vw;
