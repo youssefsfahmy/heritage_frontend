@@ -87,7 +87,7 @@ export default function ContactUsHome(props) {
           <IconButton className="m-1">
             <PublicIcon className="icon" />
           </IconButton>
-          <div className="textDiv">Website: Heritage.com</div>
+          <div className="textDiv">Website: heritage-eg.co</div>
         </div>
       </div>
       <div className="right">
@@ -116,7 +116,6 @@ export default function ContactUsHome(props) {
             margin="dense"
             required
             fullWidth
-            oninvalid="this.setCustomValidity('Enter User Name Here')"
             inputProps={{ pattern: "01[0-9]{9}" }}
           />
           <TextField
@@ -130,7 +129,6 @@ export default function ContactUsHome(props) {
             margin="dense"
             required
             fullWidth
-            oninvalid="this.setCustomValidity('Enter User Name Here')"
             type={"email"}
           />
           <TextField

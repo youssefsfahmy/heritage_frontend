@@ -28,7 +28,11 @@
   height: 20rem;
   object-fit: contain;
 }
-
+.image-gallery-content.fullscreen .image-gallery-image {
+  height: 55vh;
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
 @media only screen and (max-width: 700px) {
   .image-gallery {
     width: 94vw;

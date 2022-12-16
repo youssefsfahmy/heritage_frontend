@@ -11,31 +11,42 @@ export default function Gallery(props) {
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}1.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}1.jpg`,
+      thumbnailHeight: 80,
     },
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}2.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}2.jpg`,
+      thumbnailHeight: 80,
     },
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}3.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}3.jpg`,
+      thumbnailHeight: 80,
     },
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}4.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}4.jpg`,
+      thumbnailHeight: 80,
     },
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}5.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}5.jpg`,
+      thumbnailHeight: 80,
     },
     {
       original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}6.jpg`,
       thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}6.jpg`,
+      thumbnailHeight: 80,
     },
   ];
   return (
     <div className="mainGalleryDiv ">
-      <ImageGallery items={images} style={{ width: "50vw" }} />
+      <ImageGallery
+        items={images}
+        style={{ width: "50vw" }}
+        lazyLoad={true}
+        autoPlay={true}
+      />
       <div className="summaryDiv reveal">
         <span className="title">Summary </span> <br /> <br /> <br />
         {props.Copyrighting.summary}

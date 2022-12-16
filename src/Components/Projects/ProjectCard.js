@@ -20,7 +20,7 @@ export default function ProjectCard(props) {
       }}
       className="theCard"
       onClick={() => props.onClick()}
-      shineStrength={0.6}
+      // shineStrength={0.6}
     >
       <div
         className="divProjectCard"

@@ -21,9 +21,9 @@ export default function FeaturedProjectCard(props) {
       }}
     >
       <div className="figure" style={{ content: props.content }}>
-        <div class="date">
+        <div className="date">
           {/* <span class="card-date-day">By:</span> */}
-          <span class="card-date-month">{props.developer}</span>
+          <span className="card-date-month">{props.developer}</span>
         </div>
         <div className="figcaption">
           <h4>

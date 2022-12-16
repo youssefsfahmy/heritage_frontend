@@ -84,7 +84,7 @@ function NavigationBar() {
     } else {
       setFixed(null);
     }
-  }, [pathname]);
+  }, [pathname, isFixed]);
 
   return (
     <>
