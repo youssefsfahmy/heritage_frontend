@@ -10,11 +10,13 @@ export default function CardsSection() {
 
   return (
     <div className="mainDivProjects" id={"projects"}>
-      <br /> <br />
-      <span className="text">
-        Heritage partners with prestigious developers all around Egypt. Here is
-        a list of our partnered projects.
-      </span>
+      <div className="text">
+        We are proud to announce that heritage signed a partnership as an
+        official seller with luxury real estate developers across Egypt offering
+        you exclusive deals only through heritage real estate
+        {/* Heritage partners with prestigious developers all around Egypt. Here is
+        a list of our partnered projects. */}
+      </div>
       <div className="cardsDiv">
         <ProjectCard
           name="ALMAZA BAY"
@@ -36,7 +38,7 @@ export default function CardsSection() {
           }
           height={"8rem"}
           marginTop={"5rem"}
-          color={"rgb(250,158,35,0.4)"}
+          color={"rgb(138 117 90 / 33%)"}
           onClick={() => {
             navigate("/Project?name=bellevie");
           }}
@@ -94,7 +96,7 @@ export default function CardsSection() {
         />
       </div>
       <br />
-      <span className="text">
+      <div className="text">
         Can't find what you're looking for?
         <a
           onClick={() => {
@@ -103,7 +105,7 @@ export default function CardsSection() {
         >
           <span className="emailme"> Contact us.</span>
         </a>
-      </span>
+      </div>
       <br />
     </div>
   );

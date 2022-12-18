@@ -46,7 +46,7 @@ export default function AboutUs() {
             <span>Vision</span>
           </div>
           Heritage is thriving to be a leading estate agency in Egypt, driven by
-          customer service, dedication and a passion for Real Estate. . We are
+          customer service, dedication and a passion for Real Estate. We are
           working to be the to-go-to agency when it comes to renting, selling
           and reselling a real estate while eliminating the hassle that usually
           comes with real estate transactions

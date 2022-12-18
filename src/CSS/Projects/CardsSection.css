@@ -23,13 +23,16 @@
 }
 
 .mainDivProjects .text {
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-top: 3rem;
   color: var(--primary);
   opacity: 0.8;
   font-size: 1rem;
   letter-spacing: 0.08vw;
 }
 .emailme {
-  color: blue;
+  color: var(--primary);
   cursor: pointer;
   text-decoration: none !important;
 }
@@ -101,5 +104,14 @@
   }
   .parallax-card {
     margin-bottom: 5vw;
+  }
+  .mainDivProjects .text {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    color: var(--primary);
+    opacity: 0.8;
+    font-size: 1rem;
+    letter-spacing: 0.08vw;
   }
 }

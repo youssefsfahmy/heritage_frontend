@@ -19,12 +19,13 @@
 .mainAboutHome .body2 {
   color: #9497a1;
   font-family: "Qanelas light";
-  font-size: 1.7rem;
+  font-size: 1.35rem;
   line-height: 2vw;
 
   text-align: justify;
 }
 .mainAboutHome img {
+  filter: saturate(75%);
   width: 86%;
 }
 .follow {
@@ -38,7 +39,7 @@
 
 .follow.active {
   position: sticky;
-  top: 8vw;
+  top: 10vw;
   bottom: 10vw;
   transform: translateY(0);
   opacity: 1;

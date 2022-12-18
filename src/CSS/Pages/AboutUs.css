@@ -45,6 +45,7 @@
 }
 
 .aboutUsMainDiv .ourTeam {
+  margin-top: 7vw;
   padding-left: 7%;
   padding-right: 7%;
   text-align: -webkit-center;
@@ -54,7 +55,7 @@
   width: 80%;
 }
 .aboutUsMainDiv .ourTeam .row {
-  margin-top: 5vw;
+  margin-top: 2vw;
   display: flex;
 }
 

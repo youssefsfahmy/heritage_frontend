@@ -22,7 +22,7 @@ export default function NavLogo() {
   }
   function changeCssTop(navElement) {
     navElement.style.height = "1.5rem";
-    navElement.style.width = "4rem";
+    navElement.style.width = "fit-content";
     navElement.style.visibility = "";
   }
   function changeCssTop1(navElement) {
