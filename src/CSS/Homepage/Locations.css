@@ -24,6 +24,7 @@
   opacity: 1;
 }
 .gallery__thumb {
+  width: 33.3vw;
   position: relative;
 }
 .gallery__image {
@@ -83,6 +84,7 @@
     opacity: 1;
   }
   .gallery__thumb {
+    width: auto;
     position: relative;
   }
   .gallery__image {

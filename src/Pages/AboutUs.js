@@ -31,7 +31,7 @@ export default function AboutUs() {
         keys to their dream home. We combine a wide range of diverse services
         with unique know-how to develop unparalleled outcomes. <br />
         <br />
-        Heritage Real Estate Broker was established in 2018 in a small office in
+        Heritage Real Estate was established in 2018 in a small office in
         Leading Business Center consisting of only a handful of agents and
         support staff. Our dream was to be a leading property broker and a
         prominent name in Egypt real estate sector and we have very quickly come

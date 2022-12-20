@@ -11,11 +11,14 @@ export default function CardsSection() {
   return (
     <div className="mainDivProjects" id={"projects"}>
       <div className="text">
-        We are proud to announce that heritage signed a partnership as an
-        official seller with luxury real estate developers across Egypt offering
-        you exclusive deals only through heritage real estate
+        <hr />
+        We are proud to announce that <b>Heritage</b> signed a partnership as an
+        official seller with <b>luxury</b> real estate developers across Egypt
+        offering you <b>exclusive</b> deals only through <b>Heritage</b> real
+        estate
         {/* Heritage partners with prestigious developers all around Egypt. Here is
         a list of our partnered projects. */}
+        <hr />
       </div>
       <div className="cardsDiv">
         <ProjectCard
@@ -96,15 +99,15 @@ export default function CardsSection() {
         />
       </div>
       <br />
-      <div className="text">
+      <div className="text2">
         Can't find what you're looking for?
-        <a
+        <div
           onClick={() => {
             navigate("/Contact");
           }}
         >
-          <span className="emailme"> Contact us.</span>
-        </a>
+          <span className="emailme"> &nbsp; Contact us.</span>
+        </div>
       </div>
       <br />
     </div>

@@ -27,6 +27,7 @@
 .mainAboutHome img {
   filter: saturate(75%);
   width: 86%;
+  border-radius: 1rem;
 }
 .follow {
   margin-top: 3vw;

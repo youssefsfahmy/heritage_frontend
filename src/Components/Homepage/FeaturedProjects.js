@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
         developer="Orascom Developement"
         name="O WEST"
         description="O West is set to rise as a beacon of integrated living, a true wholesome town experience."
-        link="/Project?name=bellevie"
+        link="/Project?name=owest"
       />
       <FeaturedProjectCard
         reveal={2}
@@ -31,7 +31,7 @@ export default function FeaturedProjects() {
         developer="Sodic Developement"
         name="June"
         description="The Miami-inspired June offers a wide range of neighborhoods, Where it’s always summer."
-        link="/Project?name=bellevie"
+        link="/Project?name=june"
       />
       <FeaturedProjectCard
         reveal={3}
@@ -39,7 +39,7 @@ export default function FeaturedProjects() {
         developer="Mountain View Developement"
         name="I City"
         description="A stress-free zone with a unique lagoon beach park living experience."
-        link="/Project?name=bellevie"
+        link="/Project?name=icity"
       />
     </div>
   );

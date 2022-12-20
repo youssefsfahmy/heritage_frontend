@@ -9,6 +9,8 @@ import IconButton from "@mui/material/IconButton";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function Footer() {
+  /* eslint-disable */
+
   return (
     <div className="Main-Div-Footer">
       <div className="Upper-Div">
@@ -87,8 +89,8 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="/Partners" className="text-white">
-                Partners
+              <a href="/Projects" className="text-white">
+                Projects
               </a>
             </li>
             <li>
