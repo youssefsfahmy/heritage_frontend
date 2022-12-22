@@ -1,6 +1,9 @@
 .employeeCard {
   height: fit-content;
   /* width: 20rem; */
+  /* padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%; */
 }
 .textTitle {
   font-size: 1rem;
@@ -39,6 +42,13 @@
   transform: translate(-50%, -50%);
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
+}
+.aboutUsMainDiv .ourTeam .cards .oneCard img {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  filter: saturate(0.75);
 }
 @media only screen and (max-width: 700px) {
   .textTitle {

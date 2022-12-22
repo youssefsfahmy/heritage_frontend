@@ -31,13 +31,13 @@ export default function AboutUs() {
         keys to their dream home. We combine a wide range of diverse services
         with unique know-how to develop unparalleled outcomes. <br />
         <br />
-        Heritage Real Estate was established in 2018 in a small office in
-        Leading Business Center consisting of only a handful of agents and
-        support staff. Our dream was to be a leading property broker and a
-        prominent name in Egypt real estate sector and we have very quickly come
-        to the forefront of the real estate market. This has happened through
-        immense hard work and determination and by providing a high level of
-        service to our values customers.
+        Heritage Real Estate was established in 2018 in a small office in a
+        leading business center consisting of only a handful of agents and
+        support staff. Our dream was to be a leading real estate agency and a
+        prominent name in Egypt's real estate sector and we have very quickly
+        come to the forefront of the real estate market. This has happened
+        through immense hard work and determination and by providing a high
+        level of service to our valued customers.
       </div>
       <div className="tableDiv">
         <div className="col reveal">
@@ -72,7 +72,7 @@ export default function AboutUs() {
             <span>Values</span>
           </div>
           Our business is based on the principles of Honesty. Integrity.
-          Punctuality. Reliability.building our reputation and these are
+          Punctuality. Reliability, building our reputation and these are
           apparent in our business model, and our day to day business
           operations. We keep the clients requirements and interest on a
           priority and customer satisfaction is what we strive for.
@@ -93,7 +93,7 @@ export default function AboutUs() {
             {" "}
             <EmployeeCard
               name="Ahmed AbdAllah"
-              position="CEO"
+              position="Co-founder"
               email="ahmed.abdallah.attia@gmail.com"
               phone="01000460468"
               image={
@@ -107,11 +107,11 @@ export default function AboutUs() {
             {" "}
             <EmployeeCard
               name="Ahmed El Kady"
-              position="CEO"
+              position="Co-founder/CEO"
               email="aboallaaelkady@gmail.com"
               phone="01099929298"
               image={
-                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard2.jpg"
               }
               handleExpandClick={handleExpandClick1}
               expanded={expanded[1]}
@@ -123,7 +123,7 @@ export default function AboutUs() {
               name="Martin Yanni"
               position="CTO"
               image={
-                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard2.jpg"
+                "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
               }
               handleExpandClick={handleExpandClick2}
               expanded={expanded[2]}

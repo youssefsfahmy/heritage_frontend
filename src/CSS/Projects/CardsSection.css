@@ -134,4 +134,16 @@
     font-size: 1.2rem;
     letter-spacing: 0.08vw;
   }
+  .mainDivProjects .text2 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3rem;
+    color: #1f2224;
+    opacity: 0.8;
+    font-size: 1rem;
+    letter-spacing: 0.08vw;
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: center;
+  }
 }
