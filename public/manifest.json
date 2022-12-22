@@ -1,6 +1,6 @@
 {
   "short_name": "Heritage Real Estate",
-  "name": "Create React App Sample",
+  "name": "Heritage Real Estate",
   "icons": [
     {
       "src": "favicon.ico",
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#2b3c48",
+  "background_color": "#2b3c48"
 }
