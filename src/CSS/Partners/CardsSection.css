@@ -109,7 +109,7 @@
     cursor: pointer;
   }
   .mainDivPartners .divPartnerCard {
-    width: 35vw;
+    width: 100%;
     height: auto;
     aspect-ratio: 1;
   }
