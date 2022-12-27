@@ -151,6 +151,9 @@ function NavigationBar() {
                 <Link onClick={isActive ? toggleClass : ""} to="/Projects">
                   Projects
                 </Link>
+                <Link onClick={isActive ? toggleClass : ""} to="/Partners">
+                  Partners
+                </Link>
                 <Link onClick={isActive ? toggleClass : ""} to="/Contact">
                   Contact
                 </Link>

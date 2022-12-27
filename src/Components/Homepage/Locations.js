@@ -9,6 +9,8 @@ import "../../CSS/Homepage/Locations.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Locations() {
+  /* eslint-disable */
+
   const navigate = useNavigate();
 
   function activate() {
