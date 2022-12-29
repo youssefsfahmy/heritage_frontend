@@ -13,16 +13,8 @@ export default function PartnerCard(props) {
       rotateYMax={10}
       shadowScale={0.85}
       alwaysActive={true}
+      rotateTouch={false}
       shadowOffset={82}
-      onEnter={() => {
-        console.log("enter");
-      }}
-      onLeave={() => {
-        console.log("enter");
-      }}
-      onDrag={() => {
-        console.log("drag");
-      }}
     >
       {" "}
       <Card

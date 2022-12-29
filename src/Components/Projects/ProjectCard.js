@@ -14,6 +14,7 @@ export default function ProjectCard(props) {
       rotateXMax={10}
       rotateYMax={10}
       shadowScale={0.85}
+      rotateTouch={false}
     >
       <Card
         style={{
