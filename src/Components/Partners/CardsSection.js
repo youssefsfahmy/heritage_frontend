@@ -34,7 +34,7 @@ export default function CardsSection() {
           marginTop={"5rem"}
           color={"rgb(255,255,255,0.3)"}
           onClick={() => {
-            // navigate("/Project?name=almazabay");
+            navigate("/Partner");
           }}
         />
 
@@ -46,7 +46,7 @@ export default function CardsSection() {
           marginTop={"5rem"}
           color={"rgb(138 117 90 / 33%)"}
           onClick={() => {
-            // navigate("/Project?name=bellevie");
+            navigate("/Partner");
           }}
         />
 
@@ -58,7 +58,7 @@ export default function CardsSection() {
           height={"8rem"}
           marginTop={"5rem"}
           onClick={() => {
-            // navigate("/Project?name=june");
+            navigate("/Partner");
           }}
         />
       </div>
@@ -70,7 +70,7 @@ export default function CardsSection() {
           height={"8rem"}
           marginTop={"5rem"}
           onClick={() => {
-            // navigate("/Project?name=trio");
+            navigate("/Partner");
           }}
           color={"rgb(100,100,35,0.3)"}
         />
@@ -83,7 +83,7 @@ export default function CardsSection() {
           marginTop={"5rem"}
           color={"rgb(40 68 60 / 25%)"}
           onClick={() => {
-            // navigate("/Project?name=owest");
+            navigate("/Partner");
           }}
         />
 
@@ -95,7 +95,7 @@ export default function CardsSection() {
           height={"8rem"}
           marginTop={"4rem"}
           onClick={() => {
-            // navigate("/Project?name=icity");
+            navigate("/Partner");
           }}
         />
       </div>

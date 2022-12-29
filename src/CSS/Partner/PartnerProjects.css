@@ -1,29 +1,28 @@
-.mainDivPartners {
+.mainDivProjects {
   display: inline-block;
   width: 100%;
   padding-bottom: 3vw;
 }
-.mainDivPartners .cardsDiv {
+.mainDivProjects .cardsDiv {
   display: flex;
-  margin-left: 10%;
-  width: 80%;
+  width: 100%;
   justify-content: space-evenly;
   padding-top: 3vw;
   /* padding-bottom: 10vw; */
 }
 
-.mainDivPartners .cardsDiv .card {
+.mainDivProjects .cardsDiv .card {
   background-color: red !important;
-  width: 20vw !important;
+  width: 30vw !important;
   height: 20vw !important;
   cursor: pointer;
 }
-.mainDivPartners .cardsDiv .cardDiv2 {
+.mainDivProjects .cardsDiv .cardDiv2 {
   padding-top: 2.5vw;
   padding-bottom: 2.5vw;
 }
 
-.mainDivPartners .text {
+.mainDivProjects .text {
   margin-left: 15rem;
   margin-right: 15rem;
   margin-top: 3rem;
@@ -33,7 +32,7 @@
   letter-spacing: 0.08vw;
   text-align: -webkit-center;
 }
-.mainDivPartners .text2 {
+.mainDivProjects .text2 {
   margin-left: 15rem;
   margin-right: 15rem;
   margin-top: 3rem;
@@ -45,7 +44,7 @@
   display: flex;
   justify-content: center;
 }
-.mainDivPartners .text hr {
+.mainDivProjects .text hr {
   width: 70%;
   border-top: 1px solid;
   opacity: 0.5;
@@ -61,8 +60,8 @@
   height: 7vw;
   margin-top: 6vw;
 }
-.divPartnerCard {
-  width: 20vw;
+.mainDivProjects .divProjectCard {
+  width: 30vw;
   height: 20vw;
   display: flex;
   flex-direction: column;
@@ -70,22 +69,16 @@
   place-content: center;
   text-align: center;
 }
-.divPartnerCard img {
-  width: 60%;
-}
-.divPartnerCard .viewAll {
-  color: var(--primary);
-}
-.divPartnerCard .textDiv {
+.mainDivProjects .divProjectCard .textDiv {
   color: white;
   text-align: center;
   line-height: 2rem;
 }
-.divPartnerCard .textDiv .name {
+.mainDivProjects .divProjectCard .textDiv .name {
   font-weight: bold;
   font-size: 1.5rem;
 }
-.divPartnerCard .textDiv .slogan {
+.mainDivProjects .divProjectCard .textDiv .slogan {
   font-size: 1rem;
 }
 .parallax-card-layers {
@@ -94,28 +87,16 @@
 .parallax-card-shine {
   border-radius: 0 !important;
 }
-.mainDivPartners .theCard {
+.mainDivProjects .theCard {
   cursor: pointer;
 
-  width: 20vw;
+  width: 30vw;
   height: 20vw;
   background-position: center !important;
   background-size: cover !important;
 }
-.mainDivPartners .atropos-shadow {
-  z-index: -1;
-  background: #000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  filter: blur(24px);
-}
-.mainDivPartners .atropos-inner {
-  border-radius: 0.3rem;
-}
 @media only screen and (max-width: 700px) {
-  .mainDivPartners .theCard {
+  .mainDivProjects .theCard {
     width: 100%;
     height: 100%;
     background-position: center !important;
@@ -123,34 +104,28 @@
     margin-top: 3vw;
     cursor: pointer;
   }
-  .mainDivPartners .divPartnerCard {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1;
+  .mainDivProjects .divProjectCard {
+    width: 88vw;
+    height: 60vw;
   }
-  .mainDivPartners .atropos {
-    perspective: 300px;
-    margin-bottom: 2rem;
-  }
-  .mainDivPartners .cardsDiv {
-    margin-left: 0;
+  .mainDivProjects .cardsDiv {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     justify-content: space-evenly;
     padding-top: 3vw;
     padding-right: 6vw;
     padding-left: 6vw;
   }
-  .mainDivPartners .cardsDiv .card {
+  .mainDivProjects .cardsDiv .card {
     background-color: red !important;
-    width: 35vw !important;
+    width: 88vw !important;
     height: 60vw !important;
     cursor: pointer;
   }
-  .mainDivPartners .parallax-card {
+  .mainDivProjects .parallax-card {
     margin-bottom: 5vw;
   }
-  .mainDivPartners .text {
+  .mainDivProjects .text {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 2.5rem;
@@ -159,7 +134,7 @@
     font-size: 1.2rem;
     letter-spacing: 0.08vw;
   }
-  .mainDivPartners .text2 {
+  .mainDivProjects .text2 {
     margin-left: 0;
     margin-right: 0;
     margin-top: 3rem;
@@ -170,14 +145,5 @@
     text-align: -webkit-center;
     display: flex;
     justify-content: center;
-  }
-  .mainDivPartners .atropos-shadow {
-    z-index: -1;
-    background: #000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    filter: blur(24px);
   }
 }

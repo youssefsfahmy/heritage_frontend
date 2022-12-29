@@ -14,6 +14,15 @@ export default function PartnerCard(props) {
       shadowScale={0.85}
       alwaysActive={true}
       shadowOffset={82}
+      onEnter={() => {
+        console.log("enter");
+      }}
+      onLeave={() => {
+        console.log("enter");
+      }}
+      onDrag={() => {
+        console.log("drag");
+      }}
     >
       {" "}
       <Card
@@ -32,10 +41,12 @@ export default function PartnerCard(props) {
         >
           <div className="textDiv">
             <div className="name">
-              {" "}
-              <img src={props.src1} alt="logo" />{" "}
+              {props.src1 ? (
+                <img src={props.src1} alt="logo" />
+              ) : (
+                <div className="viewAll">{props.slogan}</div>
+              )}{" "}
             </div>
-            {/* <div className="slogan">{props.slogan}</div> */}
           </div>
         </div>
       </Card>

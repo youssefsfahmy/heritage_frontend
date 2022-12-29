@@ -1,0 +1,17 @@
+.mainPartnerDetailsDiv {
+  width: 45%;
+  text-align: justify;
+  margin-top: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: var(--primary);
+}
+
+.mainPartnerDetailsDiv .title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.mainPartnerDetailsDiv .read-more-button {
+  color: #c7a45d;
+  cursor: pointer;
+}

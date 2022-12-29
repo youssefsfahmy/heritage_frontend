@@ -1,0 +1,40 @@
+.mainAmenitiesDiv {
+  position: relative;
+  width: 55%;
+  height: 85vh;
+}
+.mainAmenitiesDiv img {
+  height: 100%;
+  width: auto;
+}
+.selected-country-destination-info ul li span {
+  color: #c7a45d;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #c7a45d;
+  padding-bottom: 0.2rem;
+  font-weight: 400;
+}
+.selected-country-destination-info ul li h3 {
+  color: #434345;
+  font-size: 0.75rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
+
+  font-weight: 500;
+}
+.selected-country-destination-info {
+  position: absolute;
+  top: 60%;
+  left: 4rem;
+  width: 50%;
+  cursor: pointer;
+  text-align: left;
+}
+.selected-country-destination-info ul li span sub {
+  bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.selected-country-destination-info ul {
+  list-style: none;
+}
