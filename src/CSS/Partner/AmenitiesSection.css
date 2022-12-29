@@ -38,3 +38,49 @@
 .selected-country-destination-info ul {
   list-style: none;
 }
+@media only screen and (max-width: 700px) {
+  .mainAmenitiesDiv {
+    place-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 7%;
+    height: fit-content;
+  }
+  .mainAmenitiesDiv img {
+    height: fit-content;
+    width: 50%;
+  }
+  .selected-country-destination-info {
+    position: static;
+    height: fit-content;
+    top: 0%;
+    left: 0rem;
+    width: 50%;
+    cursor: pointer;
+    text-align: left;
+  }
+  .selected-country-destination-info ul {
+    padding-left: 0;
+  }
+  .selected-country-destination-info ul li span sub {
+    font-size: 1rem;
+  }
+  .selected-country-destination-info ul li span {
+    color: #c7a45d;
+    font-size: 2rem;
+    padding-bottom: 0.2rem;
+    font-weight: 400;
+  }
+  .selected-country-destination-info ul li h3 {
+    color: #434345;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+
+    font-weight: 500;
+  }
+}

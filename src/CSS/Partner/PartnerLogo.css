@@ -9,6 +9,7 @@
   height: 7rem;
   width: 7rem;
   margin-top: -3.5rem;
+  /* border-radius: 1rem; */
 }
 .partnerLogoMain img {
   width: 100%;
@@ -16,4 +17,15 @@
 }
 .partnerLogoMain .fabEdit {
   transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width: 700px) {
+  .partnerMainDiv .partnerSecondaryDiv {
+    flex-direction: column-reverse;
+  }
+  .partnerLogoMain .MuiFab-root {
+    height: 7rem;
+    width: 7rem;
+    margin-top: -3.5rem;
+    /* border-radius: 1rem; */
+  }
 }

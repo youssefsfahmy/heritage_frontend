@@ -6,7 +6,7 @@ import svg from "../../Images/egypt-earth.svg";
 export default function AmenitiesSection(props) {
   return (
     <div className="mainAmenitiesDiv">
-      <img src={svg} alt="svg" /> <br />
+      <img src={svg} alt="svg" className="reveal" /> <br />
       <div className="selected-country-destination-info reveal">
         <ul>
           <li>

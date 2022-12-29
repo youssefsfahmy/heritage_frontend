@@ -39,7 +39,7 @@ function NavigationBar() {
 
     // navElement.style.backgroundColor = "rgba(1, 54, 96, 0)";
     // navElement.style.borderBottomColor = "rgba(212, 174, 82, 0)";
-    navElement.style.paddingTop = "2rem";
+    navElement.style.paddingTop = "1rem";
   }
 
   function changeCssBottom(navElement, navElement1) {

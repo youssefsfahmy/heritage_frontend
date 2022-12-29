@@ -61,7 +61,6 @@ export default function OtherPartners() {
           }}
         />
       </div>
-
       <br />
     </div>
   );
