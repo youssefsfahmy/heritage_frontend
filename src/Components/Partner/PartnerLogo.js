@@ -32,7 +32,13 @@ export default function PartnerLogo() {
   return (
     <div className="partnerLogoMain">
       {" "}
-      <Fab size="large" color="white" aria-label="add" className="fabEdit">
+      <Fab
+        size="large"
+        color="white"
+        aria-label="add"
+        className="fabEdit"
+        disabled={true}
+      >
         <img src={img} alt="logo" />
       </Fab>
     </div>
