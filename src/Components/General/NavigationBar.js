@@ -131,7 +131,9 @@ function NavigationBar() {
           <Navbar.Offcanvas
             show={isActive}
             style={{
-              padding: isActive ? "1rem" : "0",
+              padding: isActive ? "1.5rem" : "0",
+              paddingTop: isActive ? "0rem" : "0",
+
               transition: isActive ? "0" : "0.5s",
             }}
             id={`offcanvasNavbar-expand`}

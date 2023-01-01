@@ -24,7 +24,9 @@ export default function CardsSection() {
         <ProjectCard
           name="ALMAZA BAY"
           slogan="Your ultimate sanctuary"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/hero.png"}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/Heros/almazabay-hero-thumbnail.jpg"
+          }
           height={"8rem"}
           marginTop={"5rem"}
           color={"rgb(255,255,255,0.3)"}
@@ -37,7 +39,7 @@ export default function CardsSection() {
           name="BELLE VIE"
           slogan="Life is beautiful"
           src1={
-            "https://heritage-eg.s3.amazonaws.com/WebsiteImages/Belle-Vie.png"
+            "https://heritage-eg.s3.amazonaws.com/Heros/bellevie-hero-thumbnail.jpg"
           }
           height={"8rem"}
           marginTop={"5rem"}
@@ -50,7 +52,9 @@ export default function CardsSection() {
         <ProjectCard
           name="JUNE"
           slogan="Where it’s always summer"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/june.jpg"}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail-1.jpg"
+          }
           color={"rgb(128 110 0 / 50%)"}
           height={"8rem"}
           marginTop={"5rem"}
@@ -63,7 +67,9 @@ export default function CardsSection() {
         <ProjectCard
           name="Trio"
           slogan="Inspiration That Changes Perceptions"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/trio.jpg"}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/Heros/trio-hero-thumbnail-1.jpg"
+          }
           height={"8rem"}
           marginTop={"5rem"}
           onClick={() => {
@@ -76,7 +82,7 @@ export default function CardsSection() {
           name="O WEST"
           slogan="A true wholesome town experience"
           src1={
-            "https://heritage-eg.s3.amazonaws.com/WebsiteImages/O-West-Cairo.jpg"
+            "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail-1.jpg"
           }
           height={"8rem"}
           marginTop={"5rem"}
@@ -89,7 +95,9 @@ export default function CardsSection() {
         <ProjectCard
           name="MOUNTAIN VIEW ICITY"
           slogan="A City Within A City"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/icity.jpg"}
+          src1={
+            "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail-1.jpg"
+          }
           color={"rgb(79 110 191 / 50%)"}
           height={"8rem"}
           marginTop={"4rem"}

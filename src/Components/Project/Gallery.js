@@ -9,33 +9,33 @@ import "../../CSS/Project/ModalDownload.css";
 export default function Gallery(props) {
   let images = [
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}1.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}1.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-1.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-1-thumbnail.jpg`,
       thumbnailHeight: 80,
     },
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}2.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}2.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-2.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-2.jpg`,
       thumbnailHeight: 80,
     },
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}3.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}3.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-3.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-3.jpg`,
       thumbnailHeight: 80,
     },
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}4.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}4.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-4.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-4.jpg`,
       thumbnailHeight: 80,
     },
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}5.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}5.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-5.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-5.jpg`,
       thumbnailHeight: 80,
     },
     {
-      original: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}6.jpg`,
-      thumbnail: `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}6.jpg`,
+      original: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-6.jpg`,
+      thumbnail: `https://heritage-eg.s3.amazonaws.com/Gallery/${props.Copyrighting.id}/${props.Copyrighting.id}-6.jpg`,
       thumbnailHeight: 80,
     },
   ];

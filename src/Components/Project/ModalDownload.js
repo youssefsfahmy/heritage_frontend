@@ -63,7 +63,7 @@ export default function ModalDownload(props) {
       });
 
     window.open(
-      `https://heritage-eg.s3.amazonaws.com/${props.Copyrighting.id}-pdf.pdf`
+      `https://heritage-eg.s3.amazonaws.com/Brochures/${props.Copyrighting.id}-brochure.pdf`
     );
     navigate("/Projects");
   };
