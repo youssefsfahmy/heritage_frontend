@@ -1,12 +1,7 @@
 import React from "react";
 import "../../CSS/Partners/CardsSection.css";
-// import emaar from "../../Images/emaar.png";
-// import madaar from "../../Images/madaar.png";
-// import orascom from "../../Images/orascom.png";
-// import sodic from "../../Images/sodic.png";
-// import misritalia from "../../Images/misritalia.png";
+
 import PartnerCard from "./PartnerCard";
-import betterhome from "../../Images/betterhome.png";
 
 import { useNavigate } from "react-router-dom";
 
