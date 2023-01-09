@@ -20,7 +20,7 @@ export default function FeaturedProjects() {
       <FeaturedProjectCard
         reveal={1}
         photo={
-          "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail-1.jpg"
+          "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail.jpg"
         }
         developer="Orascom Developement"
         name="O WEST"
@@ -30,7 +30,7 @@ export default function FeaturedProjects() {
       <FeaturedProjectCard
         reveal={2}
         photo={
-          "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail-1.jpg"
+          "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail.jpg"
         }
         developer="Sodic Developement"
         name="June"
@@ -40,7 +40,7 @@ export default function FeaturedProjects() {
       <FeaturedProjectCard
         reveal={3}
         photo={
-          "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail-1.jpg"
+          "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail.jpg"
         }
         developer="Mountain View Developement"
         name="I City"

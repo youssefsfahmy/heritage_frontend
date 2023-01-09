@@ -7,7 +7,9 @@
     "area":"80 to 250",
     "installments":"7",
     "downpayment":"20",
-    "complete":"2022"
+    "complete":"2022",
+    "developerId": "travco",
+    "thumbnailShade": "rgb(255,255,255,0.3)"
 },"bellevie":{
     "id":"bellevie",
     "name":"BELLE VIE",
@@ -17,7 +19,9 @@
     "area":"86 to 530",
     "installments":"7",
     "downpayment":"10",
-    "complete":"2024"
+    "complete":"2024",
+    "developerId": "emaar",
+    "thumbnailShade": "rgb(138 117 90 / 33%)"
 },"june":{
     "id":"june",
     "name":"JUNE",
@@ -27,7 +31,9 @@
     "area":"86 to 530",
     "installments":"7",
     "downpayment":"5",
-    "complete":"2026"
+    "complete":"2026",
+    "developerId": "sodic",
+    "thumbnailShade": "rgb(128 110 0 / 50%)"
 },"trio":{
     "id":"trio",
     "name":"Trio",
@@ -37,7 +43,9 @@
     "area":"86 to 530",
     "installments":"7",
     "downpayment":"10",
-    "complete":"2022"
+    "complete":"2022",
+    "developerId": "msquared",
+    "thumbnailShade": "rgb(100,100,35,0.3)"
 },"owest":{
     "id":"owest",
     "name":"O WEST",
@@ -47,7 +55,9 @@
     "area":"86 to 530",
     "installments":"8",
     "downpayment":"5",
-    "complete":"2021"
+    "complete":"2021",
+    "developerId": "orascom",
+    "thumbnailShade": "rgb(40 68 60 / 25%)"
 },"icity":{
     "id":"icity",
     "name":"MOUNTAIN VIEW ICITY",
@@ -57,6 +67,8 @@
     "area":"95 to 560",
     "installments":"9",
     "downpayment":"10",
-    "complete":"2021"
+    "complete":"2021",
+    "developerId": "mountainview",
+    "thumbnailShade": "rgb(79 110 191 / 50%)"
 }
 }

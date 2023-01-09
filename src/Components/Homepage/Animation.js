@@ -2,7 +2,7 @@ import React from "react";
 import "../../CSS/Homepage/Animation2.css";
 export default function Animation() {
   return (
-    <div className="divdiv">
+    <div className="animationMainDiv">
       {" "}
       <h1>
         Your Gateway to

@@ -71,11 +71,11 @@ export default function AboutUs() {
             <hr></hr>
             <span>Values</span>
           </div>
-          Our business is based on the principles of Honesty. Integrity.
-          Punctuality. Reliability, building our reputation and these are
-          apparent in our business model, and our day to day business
-          operations. We keep the clients requirements and interest on a
-          priority and customer satisfaction is what we strive for.
+          Our business is based on the principles of Honesty, integrity,
+          punctuality and reliability. These are apparent in our business model,
+          and our day to day business operations. We treat our clients's
+          requirements and interest as a priority and customer satisfaction is
+          what we strive for.
         </div>
       </div>
       <div className="ourTeam reveal">

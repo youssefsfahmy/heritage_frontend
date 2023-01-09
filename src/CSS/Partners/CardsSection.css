@@ -80,10 +80,12 @@
   color: white;
   text-align: center;
   line-height: 2rem;
+  width: 100%;
 }
 .divPartnerCard .textDiv .name {
   font-weight: bold;
   font-size: 1.5rem;
+  width: 100%;
 }
 .divPartnerCard .textDiv .slogan {
   font-size: 1rem;

@@ -52,9 +52,9 @@ export default function ContactUsHome(props) {
         <div className="text3">
           <IconButton
             className="m-1"
-            onClick={() => {
-              window.open(`https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw`);
-            }}
+            href="https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <LocationOnIcon className="icon" />
           </IconButton>
@@ -78,16 +78,21 @@ export default function ContactUsHome(props) {
           <div className="textDiv">Phone: 012 820 41766</div>{" "}
         </div>
         <div className="text3">
-          <IconButton className="m-1" href={"mailto:sales@heritage-eg.co"}>
+          <IconButton className="m-1" href={"mailto:sales@heritage-egypt.com"}>
             <MailOutlineIcon className="icon" />
           </IconButton>
-          <div className="textDiv"> Email: sales@heritage-eg.co</div>
+          <div className="textDiv"> Email: sales@heritage-egypt.com</div>
         </div>
         <div className="text3">
-          <IconButton className="m-1">
+          <IconButton
+            className="m-1"
+            href={"https://www.heritage-egypt.com"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <PublicIcon className="icon" />
           </IconButton>
-          <div className="textDiv">Website: heritage-eg.co</div>
+          <div className="textDiv">Website: heritage-egypt.com</div>
         </div>
       </div>
       <div className="right">

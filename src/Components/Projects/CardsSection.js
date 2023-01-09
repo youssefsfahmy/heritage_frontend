@@ -21,101 +21,91 @@ export default function CardsSection() {
         <hr />
       </div>
       <div className="cardsDiv">
-        <ProjectCard
-          name="ALMAZA BAY"
-          slogan="Your ultimate sanctuary"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/almazabay-hero-thumbnail.jpg"
-          }
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(255,255,255,0.3)"}
-          onClick={() => {
-            navigate("/Project?name=almazabay");
-          }}
-        />
+        <a href="/Project?name=almazabay">
+          <ProjectCard
+            name="ALMAZA BAY"
+            slogan="Your ultimate sanctuary"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/almazabay-hero-thumbnail.jpg"
+            }
+            height={"8rem"}
+            marginTop={"5rem"}
+            color={"rgb(255,255,255,0.3)"}
+            // onClick={() => {
+            //   navigate("/Project?name=almazabay");
+            // }}
+          />
+        </a>
+        <a href="/Project?name=bellevie">
+          <ProjectCard
+            name="BELLE VIE"
+            slogan="Life is beautiful"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/bellevie-hero-thumbnail.jpg"
+            }
+            height={"8rem"}
+            marginTop={"5rem"}
+            color={"rgb(138 117 90 / 33%)"}
+          />
+        </a>
 
-        <ProjectCard
-          name="BELLE VIE"
-          slogan="Life is beautiful"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/bellevie-hero-thumbnail.jpg"
-          }
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(138 117 90 / 33%)"}
-          onClick={() => {
-            navigate("/Project?name=bellevie");
-          }}
-        />
-
-        <ProjectCard
-          name="JUNE"
-          slogan="Where it’s always summer"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail-1.jpg"
-          }
-          color={"rgb(128 110 0 / 50%)"}
-          height={"8rem"}
-          marginTop={"5rem"}
-          onClick={() => {
-            navigate("/Project?name=june");
-          }}
-        />
-      </div>
-      <div className="cardsDiv">
-        <ProjectCard
-          name="Trio"
-          slogan="Inspiration That Changes Perceptions"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/trio-hero-thumbnail-1.jpg"
-          }
-          height={"8rem"}
-          marginTop={"5rem"}
-          onClick={() => {
-            navigate("/Project?name=trio");
-          }}
-          color={"rgb(100,100,35,0.3)"}
-        />
-
-        <ProjectCard
-          name="O WEST"
-          slogan="A true wholesome town experience"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail-1.jpg"
-          }
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(40 68 60 / 25%)"}
-          onClick={() => {
-            navigate("/Project?name=owest");
-          }}
-        />
-
-        <ProjectCard
-          name="MOUNTAIN VIEW ICITY"
-          slogan="A City Within A City"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail-1.jpg"
-          }
-          color={"rgb(79 110 191 / 50%)"}
-          height={"8rem"}
-          marginTop={"4rem"}
-          onClick={() => {
-            navigate("/Project?name=icity");
-          }}
-        />
+        <a href="/Project?name=june">
+          <ProjectCard
+            name="JUNE"
+            slogan="Where it’s always summer"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail-1.jpg"
+            }
+            color={"rgb(128 110 0 / 50%)"}
+            height={"8rem"}
+            marginTop={"5rem"}
+          />
+        </a>
+        <a href="/Project?name=trio">
+          <ProjectCard
+            name="Trio"
+            slogan="Inspiration That Changes Perceptions"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/trio-hero-thumbnail-1.jpg"
+            }
+            height={"8rem"}
+            marginTop={"5rem"}
+            color={"rgb(100,100,35,0.3)"}
+          />
+        </a>
+        <a href="/Project?name=owest">
+          <ProjectCard
+            name="O WEST"
+            slogan="A true wholesome town experience"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail-1.jpg"
+            }
+            height={"8rem"}
+            marginTop={"5rem"}
+            color={"rgb(40 68 60 / 25%)"}
+          />
+        </a>
+        <a href="/Project?name=icity">
+          <ProjectCard
+            name="MOUNTAIN VIEW ICITY"
+            slogan="A City Within A City"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail-1.jpg"
+            }
+            color={"rgb(79 110 191 / 50%)"}
+            height={"8rem"}
+            marginTop={"4rem"}
+          />
+        </a>
       </div>
       <br />
       <div className="text2">
         Can't find what you're looking for?
-        <div
-          onClick={() => {
-            navigate("/Contact");
-          }}
-        >
-          <span className="emailme"> &nbsp; Contact us.</span>
-        </div>
+        <a href="/Contact">
+          <div>
+            <span className="emailme"> &nbsp; Contact us.</span>
+          </div>{" "}
+        </a>
       </div>
       <br />
     </div>

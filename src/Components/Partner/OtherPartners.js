@@ -1,65 +1,49 @@
 import React from "react";
 import "../../CSS/Partner/OtherPartners.css";
-import emaar from "../../Images/emaar.png";
-import madaar from "../../Images/madaar.png";
-import sodic from "../../Images/sodic.png";
+
 import PartnerCard from "../Partners/PartnerCard";
 
 import { useNavigate } from "react-router-dom";
+import partners from "../../Copyrighting/partners.json";
 
-export default function OtherPartners() {
+export default function OtherPartners(props) {
   const navigate = useNavigate();
-
+  var otherPartners = [];
+  var c = 0;
+  for (var key in partners) {
+    if (partners[key].id !== props.id && c < 3) {
+      otherPartners.push(partners[key]);
+      c += 1;
+    }
+  }
   return (
     <div className="mainDivOtherPartners reveal" id={"projects"}>
       <div className="cardsDiv">
-        <PartnerCard
-          name="ALMAZA BAY"
-          slogan="Your ultimate sanctuary"
-          src1={emaar}
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(255,255,255,0.3)"}
-          onClick={() => {
-            navigate("/Partner");
-          }}
-        />
-
-        <PartnerCard
-          name="BELLE VIE"
-          slogan="Life is beautiful"
-          src1={madaar}
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(138 117 90 / 33%)"}
-          onClick={() => {
-            navigate("/Partner");
-          }}
-        />
-
-        <PartnerCard
-          name="JUNE"
-          slogan="Where it’s always summer"
-          src1={sodic}
-          color={"rgb(128 110 0 / 50%)"}
-          height={"8rem"}
-          marginTop={"5rem"}
-          onClick={() => {
-            navigate("/Partner");
-          }}
-        />
-        <PartnerCard
-          name="JUNE"
-          slogan="VIEW ALL &#8594;
+        {otherPartners.map(function (value, key) {
+          return (
+            <a href={`/Partner?name=${value.id}`}>
+              <PartnerCard
+                name={value.name}
+                slogan={value.slogan}
+                src1={`https://heritage-eg.s3.amazonaws.com/Logos/${value.id}.png`}
+                height={"8rem"}
+                marginTop={"5rem"}
+                color={value.thumbnailShade}
+              />
+            </a>
+          );
+        })}
+        <a href={`/Partner`}>
+          <PartnerCard
+            name="JUNE"
+            slogan="VIEW ALL &#8594;
           "
-          src1={null}
-          color={"rgb(128 110 0 / 50%)"}
-          height={"8rem"}
-          marginTop={"5rem"}
-          onClick={() => {
-            navigate("/Partners");
-          }}
-        />
+            src1={null}
+            color={"rgb(128 110 0 / 50%)"}
+            height={"8rem"}
+            marginTop={"5rem"}
+          />{" "}
+        </a>
       </div>
       <br />
     </div>

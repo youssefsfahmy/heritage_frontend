@@ -2,52 +2,37 @@ import React from "react";
 import "../../CSS/Partner/PartnerProjects.css";
 
 import ProjectCard from "../Projects/ProjectCard";
+import projects from "../../Copyrighting/projects.json";
 
 import { useNavigate } from "react-router-dom";
 
-export default function PartnerProjects() {
+export default function PartnerProjects(props) {
   const navigate = useNavigate();
+  var partnerProjects = [];
+
+  for (var key in projects) {
+    if (projects[key].developerId === props.id) {
+      partnerProjects.push(projects[key]);
+    }
+  }
 
   return (
     <div className="mainDivProjects reveal" id={"projects"}>
       <div className="cardsDiv">
-        <ProjectCard
-          name="ALMAZA BAY"
-          slogan="Your ultimate sanctuary"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/hero.png"}
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(255,255,255,0.3)"}
-          onClick={() => {
-            navigate("/Project?name=almazabay");
-          }}
-        />
-
-        <ProjectCard
-          name="BELLE VIE"
-          slogan="Life is beautiful"
-          src1={
-            "https://heritage-eg.s3.amazonaws.com/WebsiteImages/Belle-Vie.png"
-          }
-          height={"8rem"}
-          marginTop={"5rem"}
-          color={"rgb(138 117 90 / 33%)"}
-          onClick={() => {
-            navigate("/Project?name=bellevie");
-          }}
-        />
-
-        <ProjectCard
-          name="JUNE"
-          slogan="Where it’s always summer"
-          src1={"https://heritage-eg.s3.amazonaws.com/WebsiteImages/june.jpg"}
-          color={"rgb(128 110 0 / 50%)"}
-          height={"8rem"}
-          marginTop={"5rem"}
-          onClick={() => {
-            navigate("/Project?name=june");
-          }}
-        />
+        {partnerProjects.map(function (value, key) {
+          return (
+            <a href={`/Project?name=${value.id}`}>
+              <ProjectCard
+                name={value.name}
+                slogan={value.slogan}
+                src1={`https://heritage-eg.s3.amazonaws.com/Heros/${value.id}-hero-thumbnail.jpg`}
+                height={"8rem"}
+                marginTop={"5rem"}
+                color={value.thumbnailShade}
+              />
+            </a>
+          );
+        })}{" "}
       </div>
 
       <br />

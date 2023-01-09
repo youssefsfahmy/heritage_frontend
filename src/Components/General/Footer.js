@@ -23,55 +23,53 @@ export default function Footer() {
             className="Logo-Image"
           />
           <div>
-            {" "}
             <section className="mb-4">
-              <IconButton
-                className="m-1"
-                onClick={() => {
-                  window.open(
-                    "https://www.facebook.com/people/Heritage-Real-Estate/100078710004322/"
-                  );
-                }}
+              <a
+                href="https://www.facebook.com/people/Heritage-Real-Estate/100078710004322/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <FacebookIcon className="icon" />
-              </IconButton>
-              <IconButton
-                className="m-1"
-                onClick={() => {
-                  window.open(
-                    "//api.whatsapp.com/send?phone=00201282041766&text=I would like to enquire about"
-                  );
-                  navigator.clipboard.writeText("01282041766");
-                }}
+                {" "}
+                <IconButton className="m-1">
+                  <FacebookIcon className="icon" />
+                </IconButton>
+              </a>
+              <a
+                href="//api.whatsapp.com/send?phone=00201282041766&text=I would like to enquire about"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <WhatsAppIcon className="icon" />
-              </IconButton>
-
-              <IconButton
-                className="m-1"
-                onClick={() => {
-                  window.open(
-                    "https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw"
-                  );
-                }}
+                <IconButton className="m-1">
+                  <WhatsAppIcon className="icon" />
+                </IconButton>
+              </a>
+              <a
+                href="https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <GoogleIcon className="icon" />
-              </IconButton>
-
-              <IconButton
-                className="m-1"
-                onClick={() => {
-                  window.open(
-                    "https://www.instagram.com/heritagereinvestments/"
-                  );
-                }}
+                <IconButton className="m-1">
+                  <GoogleIcon className="icon" />
+                </IconButton>
+              </a>
+              <a
+                href="https://www.instagram.com/heritagereinvestments/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <InstagramIcon className="icon" />
-              </IconButton>
-
-              <IconButton className="m-1" href="#!">
-                <LinkedInIcon className="icon" />
-              </IconButton>
+                <IconButton className="m-1">
+                  <InstagramIcon className="icon" />
+                </IconButton>{" "}
+              </a>
+              <a
+                href="https://www.instagram.com/heritagereinvestments/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconButton className="m-1">
+                  <LinkedInIcon className="icon" />
+                </IconButton>
+              </a>
             </section>
           </div>
         </div>
@@ -106,8 +104,11 @@ export default function Footer() {
           <div className="Row-Header">Contact info</div>
           <ul className="list-unstyled mb-0">
             <li>
-              <a href={"mailto:sales@heritage-eg.co"} className="text-white">
-                Sales@heritage-eg.co
+              <a
+                href={"mailto:sales@heritage-egypt.com"}
+                className="text-white"
+              >
+                Sales@heritage-egypt.com
               </a>
             </li>
             <li>
@@ -125,11 +126,9 @@ export default function Footer() {
             </li>
             <li>
               <a
-                onClick={() => {
-                  window.open(
-                    `https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw`
-                  );
-                }}
+                href="https://maps.app.goo.gl/M2kZJuzLsM9pwc1q8?g_st=iw"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white"
               >
                 10 Abu Bakr El Sedik, Heliopolis, Cairo
