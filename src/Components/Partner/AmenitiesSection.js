@@ -17,20 +17,21 @@ export default function AmenitiesSection(props) {
           <li>
             <span>
               {" "}
-              3<sub> projects</sub>
+              {props.Copyrighting.numberOfProjects} <sub> projects</sub>
             </span>
             <h3>Across Egypt</h3>
           </li>{" "}
           <li>
             <span>
               {" "}
-              13<sub> years</sub>
+              {props.Copyrighting.years}
+              <sub> years</sub>
             </span>
             <h3> Of Experience</h3>
           </li>
           <li>
             <span>
-              17.4
+              {props.Copyrighting.landBank}
               <sub>
                 mn m<sub>2</sub>
               </sub>

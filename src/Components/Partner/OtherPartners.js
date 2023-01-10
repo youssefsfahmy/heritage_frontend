@@ -3,11 +3,9 @@ import "../../CSS/Partner/OtherPartners.css";
 
 import PartnerCard from "../Partners/PartnerCard";
 
-import { useNavigate } from "react-router-dom";
 import partners from "../../Copyrighting/partners.json";
 
 export default function OtherPartners(props) {
-  const navigate = useNavigate();
   var otherPartners = [];
   var c = 0;
   for (var key in partners) {
@@ -33,7 +31,7 @@ export default function OtherPartners(props) {
             </a>
           );
         })}
-        <a href={`/Partner`}>
+        <a href={`/Partners`}>
           <PartnerCard
             name="JUNE"
             slogan="VIEW ALL &#8594;

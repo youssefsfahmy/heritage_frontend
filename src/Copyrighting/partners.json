@@ -3,9 +3,9 @@
     "name":"Orascom Developments",
     "summary":    "It all began with a simple idea: to create a little piece of paradise near the Red Sea. Today, Orascom Development Egypt, is the largest subsidiary under Orascom Development Holding (ODH); a leading developer of fully integrated towns with thriving communities.\n\n At Orascom Development Egypt, we have been building world-class destinations for more than 30 years. In that time, we have become experts in developing new communities from the ground up. \n\nOur integrated approach to development combines picturesque residences, splendid hotels, and magnificent commercial and leisure amenities– including golf courses, marinas, sports facilities, retail and restaurants. A broad array of essential infrastructure forms the foundation of our communities, and our residents and visitors are at the center of everything we do. We have secured more than 50 million square meters of land in Egypt across El Gouna, Makadi, O-west, Taba Heights, and Byoum. We have already developed more than 14 million sq. m. of that land, with many advanced plans."    ,
     "locations":["El Gouna","Taba Heights","Makadi Heights","Byoum","O-west"],
-    "numberOfnumberOfProjects":"5",
+    "numberOfProjects":"5",
     "years":"30",
-    "landbank":"50.25"
+    "landBank":"50.25"
 },"emaar":{
     "id":"emaar",
     "name":"Emaar Developments",
@@ -19,32 +19,32 @@
     "name":"M squared Developments",
     "summary":    "Founded in 2012, M squared is a leading real estate developer, renowned for its customer-centric outlook on integrated living where quality speaks volumes for communities to thrive. Celebrated as an integral part of regionally-acclaimed Intro Holding, M squared capitalizes on the in-depth experience of the holding’s diverse companies spanning varied disciplines to include oil & gas, financial investment, food & beverage, agriculture development, sustainability & recycling, and recently real estate. Since its establishment, M squared has mindfully steered clear of conventional pragmatism by focusing on blending full-function with the aesthetic form to introduce a signature residential alchemy to the Egyptian Market where less is certainly more. The company has managed to revolutionize the face of Egypt's real estate industry, as well as the Middle East, carefully selecting prime spots across the nation to carve authentic communities and commercial units of unrivaled excellence, in line with the government's overall vision for sustainable development and growth.",
     "locations":["Ras el Hekma","New Cairo","North Coast"],
-    "numberOfProjects":"",
-    "years":"",
-    "landBank":""
+    "numberOfProjects":"2",
+    "years":"23",
+    "landBank":"0.5"
 },"madaar":{
     "id":"madaar",
     "name":"Madaar Developments",
     "summary": "Madaar Development is a full-service, privately held commercial and residential real estate investment and development company with a distinguished ability to rapidly move numberOfProjects from site selection, acquisition, financing, construction, property management and maintenance. Founded in March 2015 with forward-thinking strategic planning and professional marketing capabilities, Madaar has successfully created a high profile quality of life in Egypt’s real estate industry. \n Madaar Developments was founded in March 2015, and is focused on commercial and residential real estate investment, with a full-service approach that starts with steps such as site selection, acquisition, financing, construction, property management and maintenance.",
     "locations":["Ain Sokhna","North Coast"],
-    "numberOfProjects":"",
-    "years":"",
-    "landBank":""
+    "numberOfProjects":"2",
+    "years":"8",
+    "landBank":"2.2"
 },"sodic":{
     "id":"sodic",
     "name":"Sodic Developments",
     "summary":    "SODIC is a customer-focused mixed-use developer. Twenty five years young and driven by a progressive vision, innovation is at the heart of everything we do, our purpose is to deliver dynamic communities to which our residents belong. \n\n Since our inception in 1996, SODIC has operated with a deep-rooted belief that there is infinite untapped potential in the outskirts, away from evercongested Cairo. There lies the opportunity for us to provide our residents with a radically improved quality of life and deliver to our investors all at once. Our well-diversified landbank, prime assets portfolio and our strong balance sheet provides us with solid footings to deliver to all our stakeholders. ",
     "locations":["New Cairo","New Heliopolis","North Coast","Sheikh Zayed City"],
-    "numberOfProjects":"",
-    "years":"",
-    "landBank":""
+    "numberOfProjects":"21",
+    "years":"25",
+    "landBank":"16"
 },"hassanallam":{
     "id":"hassanallam",
     "name":"Hassan Allam Developments",
     "summary": "Hassan Allam Holding is one of the largest privately owned corporations in Egypt and the MENA region, with over 80 years of experience in the fields of engineering, procurement and construction, building materials, and utilities, led by over 34,000 dynamic and talented employees.",
     "locations":["North Coast","Mostakbal City","Ain Sokhna","New Cairo","6th of october","Sherouk City"],
-    "numberOfProjects":"",
-    "years":"",
-    "landBank":""
+    "numberOfProjects":"5",
+    "years":"87",
+    "landBank":"8"
 }
 }
