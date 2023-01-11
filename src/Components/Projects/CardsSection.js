@@ -3,11 +3,7 @@ import "../../CSS/Projects/CardsSection.css";
 
 import ProjectCard from "./ProjectCard";
 
-import { useNavigate } from "react-router-dom";
-
 export default function CardsSection() {
-  const navigate = useNavigate();
-
   return (
     <div className="mainDivProjects" id={"projects"}>
       <div className="text">
