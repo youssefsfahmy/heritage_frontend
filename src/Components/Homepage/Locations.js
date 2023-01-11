@@ -9,6 +9,8 @@ import "../../CSS/Homepage/Locations.css";
 import { useNavigate } from "react-router-dom";
 
 export default function Locations() {
+  /* eslint-disable */
+
   const navigate = useNavigate();
 
   function activate() {
@@ -53,6 +55,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/alamein.png"
                 }
+                loading="lazy"
                 alt="Portrait by Oladimeji Odunsi"
                 className="gallery__image activate"
               />
@@ -72,6 +75,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/northcoast.jpg"
                 }
+                loading="lazy"
                 alt="Portrait by Jessica Felicio"
                 className="gallery__image activate"
               />
@@ -89,6 +93,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/adminstartive.jpg"
                 }
+                loading="lazy"
                 alt="Portrait by Alex Perez"
                 className="gallery__image activate"
               />
@@ -111,6 +116,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/october.jpg"
                 }
+                loading="lazy"
                 alt="Portrait by Noah Buscher"
                 className="gallery__image activate"
               />
@@ -131,6 +137,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/newcairo.jpg"
                 }
+                loading="lazy"
                 alt="Portrait by Ivana Cajina"
                 className="gallery__image activate"
               />
@@ -149,6 +156,7 @@ export default function Locations() {
                 src={
                   "https://heritage-eg.s3.amazonaws.com/WebsiteImages/sokhna.jpg"
                 }
+                loading="lazy"
                 alt="Portrait by Sam Burriss"
                 className="gallery__image activate"
               />

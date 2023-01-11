@@ -1,13 +1,15 @@
 @font-face {
   font-family: "Qanelas";
   src: url("../../font/Qanelas-Medium.otf");
+  unicode-range: U+0020-007F;
 }
 @font-face {
   font-family: "Qanelas";
   src: url("../../font/Qanelas-Bold.otf");
   font-weight: bold;
+  unicode-range: U+0020-007F;
 }
-@font-face {
+/* @font-face {
   font-family: "Qanelas italics";
   src: url("../../font/Qanelas-MediumItalic.otf");
 }
@@ -15,10 +17,11 @@
   font-family: "Qanelas italics";
   src: url("../../font/Qanelas-BoldItalic.otf");
   font-weight: bold;
-}
+} */
 @font-face {
   font-family: "Qanelas light";
   src: url("../../font/Qanelas-Light.otf");
+  unicode-range: U+0020-007F;
 }
 
 .App {

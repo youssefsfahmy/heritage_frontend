@@ -1,33 +1,32 @@
 import React from "react";
-import Gallery from "../Components/Project/Gallery";
-import "../CSS/Pages/Project.css";
-import AmenitiesBar from "../Components/Project/AmenitiesBar";
-import ContactUsHome from "../Components/Homepage/ContactUsHome";
+import "../CSS/Pages/Partner.css";
+import PartnerLogo from "../Components/Partner/PartnerLogo";
 import { useSearchParams } from "react-router-dom";
-import Copyrighting from "../Copyrighting/projects.json";
+
+import PartnerDetails from "../Components/Partner/PartnerDetails";
+import AmenitiesSection from "../Components/Partner/AmenitiesSection";
+import PartnerProjects from "../Components/Partner/PartnerProjects";
+import OtherPartners from "../Components/Partner/OtherPartners";
+import Copyrighting from "../Copyrighting/partners.json";
 
 export default function Partner() {
   const [searchParams] = useSearchParams();
   const CurrentProject = searchParams.get("name");
   return (
     <div>
-      <div className="projectMainDiv">
-        <div className="backgroundDiv">
-          <div
-            className="imageDiv"
-            style={{
-              backgroundImage: `url(https://heritage-eg.s3.amazonaws.com/${CurrentProject}-hero.png)`,
-            }}
-          ></div>
-          <div className="textDiv">
-            <div className="name">{Copyrighting[CurrentProject].name}</div>
-            <div className="slogan">{Copyrighting[CurrentProject].slogan} </div>
-          </div>
+      <div className="partnerMainDiv">
+        <div className="imageDiv">OUR PARTNER</div>
+        <PartnerLogo id={Copyrighting[CurrentProject].id} />
+        <div className="partnerSecondaryDiv">
+          <AmenitiesSection Copyrighting={Copyrighting[CurrentProject]} />
+          <PartnerDetails Copyrighting={Copyrighting[CurrentProject]} />
         </div>
-        <AmenitiesBar Copyrighting={Copyrighting[CurrentProject]} />
+        <div className="sectiontitle">PROJECTS</div>
 
-        <Gallery Copyrighting={Copyrighting[CurrentProject]} />
-        <ContactUsHome reveal={true} />
+        <PartnerProjects id={Copyrighting[CurrentProject].id} />
+        <div className="sectiontitle">OTHER PARTNERS</div>
+
+        <OtherPartners id={Copyrighting[CurrentProject].id} />
       </div>
     </div>
   );

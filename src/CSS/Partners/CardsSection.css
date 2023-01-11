@@ -1,35 +1,29 @@
-.mainDivProjects {
+.mainDivPartners {
   display: inline-block;
   width: 100%;
   padding-bottom: 3vw;
 }
-.mainDivProjects .cardsDiv {
+.mainDivPartners .cardsDiv {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: left;
+  margin-left: 10%;
+  width: 80%;
+  justify-content: space-evenly;
   padding-top: 3vw;
-  padding: 1.25%;
   /* padding-bottom: 10vw; */
 }
-.mainDivProjects .cardsDiv a {
-  margin: 1.665%;
-  width: 30%;
-  /* flex: 1 1 150px; */
-}
-.mainDivProjects .cardsDiv .card {
+
+.mainDivPartners .cardsDiv .card {
   background-color: red !important;
-  width: 100%;
-  /* width: 33vw !important;
-  height: 20vw !important; */
+  width: 20vw !important;
+  height: 20vw !important;
   cursor: pointer;
 }
-.mainDivProjects .cardsDiv .cardDiv2 {
+.mainDivPartners .cardsDiv .cardDiv2 {
   padding-top: 2.5vw;
   padding-bottom: 2.5vw;
 }
 
-.mainDivProjects .text {
+.mainDivPartners .text {
   margin-left: 15rem;
   margin-right: 15rem;
   margin-top: 3rem;
@@ -39,7 +33,7 @@
   letter-spacing: 0.08vw;
   text-align: -webkit-center;
 }
-.mainDivProjects .text2 {
+.mainDivPartners .text2 {
   margin-left: 15rem;
   margin-right: 15rem;
   margin-top: 3rem;
@@ -51,7 +45,7 @@
   display: flex;
   justify-content: center;
 }
-.mainDivProjects .text hr {
+.mainDivPartners .text hr {
   width: 70%;
   border-top: 1px solid;
   opacity: 0.5;
@@ -67,26 +61,33 @@
   height: 7vw;
   margin-top: 6vw;
 }
-.mainDivProjects .divProjectCard {
-  width: 100%;
-  /* width: 30vw;
-  height: 20vw; */
+.divPartnerCard {
+  width: 20vw;
+  height: 20vw;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
   place-content: center;
   text-align: center;
 }
-.mainDivProjects .divProjectCard .textDiv {
+.divPartnerCard img {
+  width: 60%;
+}
+.divPartnerCard .viewAll {
+  color: var(--primary);
+}
+.divPartnerCard .textDiv {
   color: white;
   text-align: center;
   line-height: 2rem;
+  width: 100%;
 }
-.mainDivProjects .divProjectCard .textDiv .name {
+.divPartnerCard .textDiv .name {
   font-weight: bold;
   font-size: 1.5rem;
+  width: 100%;
 }
-.mainDivProjects .divProjectCard .textDiv .slogan {
+.divPartnerCard .textDiv .slogan {
   font-size: 1rem;
 }
 .parallax-card-layers {
@@ -95,17 +96,28 @@
 .parallax-card-shine {
   border-radius: 0 !important;
 }
-.mainDivProjects .theCard {
-  width: 100%;
+.mainDivPartners .theCard {
   cursor: pointer;
 
-  /* width: 30vw;
-  height: 20vw; */
+  width: 20vw;
+  height: 20vw;
   background-position: center !important;
   background-size: cover !important;
 }
+.mainDivPartners .atropos-shadow {
+  z-index: -1;
+  background: #000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(24px);
+}
+.mainDivPartners .atropos-inner {
+  border-radius: 0.3rem;
+}
 @media only screen and (max-width: 700px) {
-  .mainDivProjects .theCard {
+  .mainDivPartners .theCard {
     width: 100%;
     height: 100%;
     background-position: center !important;
@@ -113,28 +125,34 @@
     margin-top: 3vw;
     cursor: pointer;
   }
-  .mainDivProjects .divProjectCard {
-    width: 88vw;
-    height: 60vw;
-  }
-  .mainDivProjects .cardsDiv {
-    display: inline-block;
+  .mainDivPartners .divPartnerCard {
     width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .mainDivPartners .atropos {
+    perspective: 300px;
+    margin-bottom: 2rem;
+  }
+  .mainDivPartners .cardsDiv {
+    margin-left: 0;
+    display: inline-block;
+    width: 50%;
     justify-content: space-evenly;
     padding-top: 3vw;
     padding-right: 6vw;
     padding-left: 6vw;
   }
-  .mainDivProjects .cardsDiv .card {
+  .mainDivPartners .cardsDiv .card {
     background-color: red !important;
-    width: 88vw !important;
+    width: 35vw !important;
     height: 60vw !important;
     cursor: pointer;
   }
-  .mainDivProjects .parallax-card {
+  .mainDivPartners .parallax-card {
     margin-bottom: 5vw;
   }
-  .mainDivProjects .text {
+  .mainDivPartners .text {
     margin-left: 5rem;
     margin-right: 5rem;
     margin-top: 2.5rem;
@@ -143,7 +161,7 @@
     font-size: 1.2rem;
     letter-spacing: 0.08vw;
   }
-  .mainDivProjects .text2 {
+  .mainDivPartners .text2 {
     margin-left: 0;
     margin-right: 0;
     margin-top: 3rem;
@@ -154,5 +172,14 @@
     text-align: -webkit-center;
     display: flex;
     justify-content: center;
+  }
+  .mainDivPartners .atropos-shadow {
+    z-index: -1;
+    background: #000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(24px);
   }
 }

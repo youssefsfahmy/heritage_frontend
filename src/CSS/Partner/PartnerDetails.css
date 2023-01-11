@@ -1,0 +1,30 @@
+.mainPartnerDetailsDiv {
+  width: 45%;
+  text-align: justify;
+  margin-top: 0rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: var(--primary);
+  white-space: pre-line;
+}
+.mainPartnerDetailsDiv ul {
+  padding: 0;
+  list-style-type: none;
+}
+.mainPartnerDetailsDiv .title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.mainPartnerDetailsDiv .read-more-button {
+  color: #c7a45d;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px) {
+  .mainPartnerDetailsDiv {
+    position: relative;
+    width: 86%;
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}

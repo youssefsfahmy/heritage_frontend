@@ -1,0 +1,38 @@
+.partnerLogoMain {
+  height: 0;
+  transition: 0.15s ease-in-out;
+  z-index: 1200;
+  width: 100%;
+  transition: z-index none;
+}
+
+.partnerLogoMain .MuiFab-root {
+  height: 7rem;
+  width: 7rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: -3.5rem;
+  /* border-radius: 1rem; */
+}
+.partnerLogoMain img {
+  width: 100%;
+  height: auto;
+}
+.partnerLogoMain .fabEdit {
+  transition: 0.3s ease-in-out;
+
+  box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+    0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%) !important;
+  background-color: #e0e0e0 !important;
+}
+@media only screen and (max-width: 700px) {
+  .partnerMainDiv .partnerSecondaryDiv {
+    flex-direction: column-reverse;
+  }
+  .partnerLogoMain .MuiFab-root {
+    height: 7rem;
+    width: 7rem;
+    margin-top: -3.5rem;
+    /* border-radius: 1rem; */
+  }
+}

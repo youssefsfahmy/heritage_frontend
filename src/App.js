@@ -12,6 +12,8 @@ import Footer from "./Components/General/Footer";
 import NavigationBar from "./Components/General/NavigationBar";
 import ScrollToTop from "./Components/General/ScrollToTop";
 import FloatingActionButton from "./Components/General/FloatingActionButton";
+import Partners from "./Pages/Partners";
+import Project from "./Pages/Project";
 // import Mivida from "./Pages/Projects/Mivida";
 function App() {
   function reveal() {
@@ -43,7 +45,9 @@ function App() {
           <Route exact path="/About" element={<AboutUs />}></Route>
           <Route exact path="/Contact" element={<ContactUs />}></Route>
           <Route exact path="/Projects" element={<Projects />}></Route>
-          <Route exact path="/Project" element={<Partner />}></Route>
+          <Route exact path="/Project" element={<Project />}></Route>
+          <Route exact path="/Partners" element={<Partners />}></Route>
+          <Route exact path="/Partner" element={<Partner />}></Route>
         </Routes>
         <Footer />
       </Router>
