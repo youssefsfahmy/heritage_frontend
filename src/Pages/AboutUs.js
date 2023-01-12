@@ -1,8 +1,11 @@
 import * as React from "react";
 import EmployeeCard from "../Components/AboutUs/EmployeeCard";
 import "../CSS/Pages/AboutUs.css";
+import ReactGA from "react-ga4";
 
 export default function AboutUs() {
+  ReactGA.send("pageview");
+
   const [expanded, setExpanded] = React.useState([false, false, false]);
 
   const handleExpandClick = () => {
@@ -121,7 +124,7 @@ export default function AboutUs() {
             {" "}
             <EmployeeCard
               name="Martin Yanni"
-              position="CTO"
+              position="Co-founder/CTO"
               image={
                 "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
               }

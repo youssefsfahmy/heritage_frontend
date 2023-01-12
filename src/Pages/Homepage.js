@@ -6,8 +6,11 @@ import AboutUsHome from "../Components/Homepage/AboutUsHome";
 import FeaturedProjects from "../Components/Homepage/FeaturedProjects";
 import Locations from "../Components/Homepage/Locations";
 import ContactUsHome from "../Components/Homepage/ContactUsHome";
+import ReactGA from "react-ga4";
 
 export default function Homepage() {
+  ReactGA.send("pageview");
+
   return (
     <div>
       <CarouselHome />
