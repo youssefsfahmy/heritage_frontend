@@ -1,8 +1,11 @@
 import * as React from "react";
 import EmployeeCard from "../Components/AboutUs/EmployeeCard";
 import "../CSS/Pages/AboutUs.css";
+import ReactGA from "react-ga4";
 
 export default function AboutUs() {
+  ReactGA.send("pageview");
+
   const [expanded, setExpanded] = React.useState([false, false, false]);
 
   const handleExpandClick = () => {

@@ -8,8 +8,11 @@ import AmenitiesSection from "../Components/Partner/AmenitiesSection";
 import PartnerProjects from "../Components/Partner/PartnerProjects";
 import OtherPartners from "../Components/Partner/OtherPartners";
 import Copyrighting from "../Copyrighting/partners.json";
+import ReactGA from "react-ga4";
 
 export default function Partner() {
+  ReactGA.send("pageview");
+
   const [searchParams] = useSearchParams();
   const CurrentProject = searchParams.get("name");
   return (

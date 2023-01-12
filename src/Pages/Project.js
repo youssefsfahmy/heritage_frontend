@@ -5,8 +5,11 @@ import AmenitiesBar from "../Components/Project/AmenitiesBar";
 import ContactUsHome from "../Components/Homepage/ContactUsHome";
 import { useSearchParams } from "react-router-dom";
 import Copyrighting from "../Copyrighting/projects.json";
+import ReactGA from "react-ga4";
 
 export default function Project() {
+  ReactGA.send("pageview");
+
   const [searchParams] = useSearchParams();
   const CurrentProject = searchParams.get("name");
   return (

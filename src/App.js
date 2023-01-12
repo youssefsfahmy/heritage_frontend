@@ -14,8 +14,13 @@ import ScrollToTop from "./Components/General/ScrollToTop";
 import FloatingActionButton from "./Components/General/FloatingActionButton";
 import Partners from "./Pages/Partners";
 import Project from "./Pages/Project";
-// import Mivida from "./Pages/Projects/Mivida";
+import ReactGA from "react-ga4";
+const TRACKING_ID = "UA-253975551-1"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 function App() {
+  // ReactGA.send("pageview");
+
   function reveal() {
     var reveals = document.querySelectorAll(".reveal");
 
