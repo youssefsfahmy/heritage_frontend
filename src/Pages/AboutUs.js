@@ -124,7 +124,7 @@ export default function AboutUs() {
             {" "}
             <EmployeeCard
               name="Martin Yanni"
-              position="CTO"
+              position="Co-founder/CTO"
               image={
                 "https://heritage-eg.s3.amazonaws.com/WebsiteImages/employeeCard3.jpg"
               }
