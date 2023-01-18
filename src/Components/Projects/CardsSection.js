@@ -50,7 +50,7 @@ export default function CardsSection() {
             name="JUNE"
             slogan="Where it’s always summer"
             src1={
-              "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail-1.jpg"
+              "https://heritage-eg.s3.amazonaws.com/Heros/june-hero-thumbnail.jpg"
             }
             color={"rgb(128 110 0 / 50%)"}
             height={"8rem"}
@@ -62,7 +62,7 @@ export default function CardsSection() {
             name="Trio"
             slogan="Inspiration That Changes Perceptions"
             src1={
-              "https://heritage-eg.s3.amazonaws.com/Heros/trio-hero-thumbnail-1.jpg"
+              "https://heritage-eg.s3.amazonaws.com/Heros/trio-hero-thumbnail.jpg"
             }
             height={"8rem"}
             marginTop={"5rem"}
@@ -74,7 +74,7 @@ export default function CardsSection() {
             name="O WEST"
             slogan="A true wholesome town experience"
             src1={
-              "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail-1.jpg"
+              "https://heritage-eg.s3.amazonaws.com/Heros/owest-hero-thumbnail.jpg"
             }
             height={"8rem"}
             marginTop={"5rem"}
@@ -86,7 +86,7 @@ export default function CardsSection() {
             name="MOUNTAIN VIEW ICITY"
             slogan="A City Within A City"
             src1={
-              "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail-1.jpg"
+              "https://heritage-eg.s3.amazonaws.com/Heros/icity-hero-thumbnail.jpg"
             }
             color={"rgb(79 110 191 / 50%)"}
             height={"8rem"}

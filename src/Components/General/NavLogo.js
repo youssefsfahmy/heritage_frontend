@@ -30,7 +30,6 @@ export default function NavLogo() {
     navElement.style.width = "4rem";
     navElement.style.visibility = "";
   }
-
   function changeCssBottom(navElement) {
     navElement.style.height = "0";
     navElement.style.width = "2rem";
