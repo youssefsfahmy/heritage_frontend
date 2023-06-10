@@ -31,7 +31,8 @@ export default function CardsSection() {
             //   navigate("/Project?name=almazabay");
             // }}
           />
-        </a>
+        </a>{" "}
+  
         <a href="/Project?name=bellevie">
           <ProjectCard
             name="BELLE VIE"
@@ -43,8 +44,18 @@ export default function CardsSection() {
             marginTop={"5rem"}
             color={"rgb(138 117 90 / 33%)"}
           />
+        </a>      <a href="/Project?name=solare">
+          <ProjectCard
+            name="SOLARE RAS EL HIKMA"
+            slogan="La Dolce Vita"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Heros/solare-hero-thumbnail.jpg"
+            }
+            color={"rgb(107 189 236 / 50%)"}
+            height={"8rem"}
+            marginTop={"4rem"}
+          />
         </a>
-
         <a href="/Project?name=june">
           <ProjectCard
             name="JUNE"
