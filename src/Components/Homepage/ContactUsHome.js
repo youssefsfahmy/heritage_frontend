@@ -25,7 +25,6 @@ export default function ContactUsHome(props) {
   };
 
   const onSubmit = (e) => {
-    console.log("TOTO");
     e.preventDefault();
     send(
       "service_brl75kk",
@@ -96,7 +95,12 @@ export default function ContactUsHome(props) {
         </div>
       </div>
       <div className="right">
-        <div className="text1"> Get in touch</div>
+        <div className="text1">
+          {" "}
+          {props.project
+            ? "Sign up to download your free brochure!"
+            : "Get in touch"}
+        </div>
         <form onSubmit={onSubmit}>
           <TextField
             className="textField"

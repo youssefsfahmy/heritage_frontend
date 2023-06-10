@@ -76,7 +76,7 @@ export default function ModalDownload(props) {
         className="buttonBrochure"
         onClick={handleOpen}
       >
-        Download Brochure
+        Download Free Brochure
       </Button>
       <Modal
         open={open}

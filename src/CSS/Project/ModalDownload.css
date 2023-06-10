@@ -4,13 +4,13 @@ form {
 }
 .buttonBrochure {
   margin-top: 2rem !important;
-  width: 15rem !important;
+  width: 18rem !important;
   color: var(--primary) !important;
   border-color: var(--primary) !important;
 }
 .buttonBrochure:hover {
   margin-top: 2rem !important;
-  width: 15rem !important;
+  width: 18rem !important;
   color: var(--secondary) !important;
   border-color: var(--primary) !important;
   background-color: var(--primary) !important;
