@@ -38,6 +38,11 @@ export default function ContactUsHome(props) {
       .catch((err) => {
         console.log("FAILED...", err);
       });
+
+    props.project &&
+      window.open(
+        `https://heritage-eg.s3.amazonaws.com/Brochures/${props.Copyrighting.id}-brochure.pdf`
+      );
     navigate("/");
     window.scrollTo(0, 0);
   };
@@ -96,7 +101,6 @@ export default function ContactUsHome(props) {
       </div>
       <div className="right">
         <div className="text1">
-          {" "}
           {props.project
             ? "Sign up to download your free brochure!"
             : "Get in touch"}
@@ -160,7 +164,7 @@ export default function ContactUsHome(props) {
             fullWidth
             className="buttonSubmit"
           >
-            Send Message
+            {props.project ? "Download Brochure" : "Send Message"}
           </Button>
         </form>
       </div>

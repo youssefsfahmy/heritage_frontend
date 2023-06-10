@@ -47,7 +47,6 @@ export default function ModalDownload(props) {
   };
 
   const onSubmit = (e) => {
-    console.log("TOTO");
     e.preventDefault();
     send(
       "service_brl75kk",

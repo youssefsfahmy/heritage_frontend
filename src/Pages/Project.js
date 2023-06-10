@@ -30,7 +30,11 @@ export default function Project() {
         <AmenitiesBar Copyrighting={Copyrighting[CurrentProject]} />
 
         <Gallery Copyrighting={Copyrighting[CurrentProject]} />
-        <ContactUsHome reveal={true} project={true}/>
+        <ContactUsHome
+          reveal={true}
+          project={true}
+          Copyrighting={Copyrighting[CurrentProject]}
+        />
       </div>
     </div>
   );
