@@ -39,14 +39,12 @@
 .ContactUsHome .textDiv {
   margin-left: 1vw;
 }
-
 .ContactUsHome .m-1 {
   background-color: transparent !important;
   height: 3vw;
   width: 3vw;
   border-color: rgba(43, 60, 72, 0.5) !important;
 }
-
 .ContactUsHome .icon {
   height: 1.5vw;
   width: 1.5vw;
@@ -68,7 +66,7 @@
   background-color: rgb(59, 85, 104);
 }
 .ContactUsHome .right .text1 {
-  height: 0vw;
+  /* height: 0vw; */
 }
 @media only screen and (max-width: 700px) {
   .ContactUsHome {
