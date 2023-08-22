@@ -38,7 +38,18 @@ export default function ContactUsHome(props) {
       .catch((err) => {
         console.log("FAILED...", err);
       });
-
+    send(
+      "service_brl75kk",
+      "template_y7rbr6j",
+      toSend,
+      "user_EsywzfdvKH8cGzk3Gm4RT"
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
     props.project &&
       window.open(
         `https://heritage-eg.s3.amazonaws.com/Brochures/${props.Copyrighting.id}-brochure.pdf`

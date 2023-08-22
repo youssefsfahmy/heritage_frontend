@@ -13,7 +13,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 400,
+  minWidth: "auto",
   bgcolor: "var(--secondary)",
   border: "2px solid ",
   borderColor: "var(--secondary)",
@@ -51,6 +51,19 @@ export default function ModalDownload(props) {
     send(
       "service_brl75kk",
       "template_nqn19x4",
+      toSend,
+      "user_EsywzfdvKH8cGzk3Gm4RT"
+    )
+      .then((response) => {
+        console.log("SUCCESS!", response.status, response.text);
+      })
+      .catch((err) => {
+        console.log("FAILED...", err);
+      });
+
+    send(
+      "service_brl75kk",
+      "template_y7rbr6j",
       toSend,
       "user_EsywzfdvKH8cGzk3Gm4RT"
     )

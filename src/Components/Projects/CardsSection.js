@@ -17,6 +17,18 @@ export default function CardsSection() {
         <hr />
       </div>
       <div className="cardsDiv">
+        <a href="/Project?name=baghush">
+          <ProjectCard
+            name="Marsa Baghush"
+            slogan="A place of good Spirits"
+            src1={
+              "https://heritage-eg.s3.amazonaws.com/Gallery/baghush/baghush-1.jpg"
+            }
+            height={"8rem"}
+            marginTop={"5rem"}
+            color={"rgb(41 58 3 / 30%)"}
+          />
+        </a>{" "}
         <a href="/Project?name=almazabay">
           <ProjectCard
             name="ALMAZA BAY"
@@ -27,12 +39,8 @@ export default function CardsSection() {
             height={"8rem"}
             marginTop={"5rem"}
             color={"rgb(255,255,255,0.3)"}
-            // onClick={() => {
-            //   navigate("/Project?name=almazabay");
-            // }}
           />
         </a>{" "}
-  
         <a href="/Project?name=bellevie">
           <ProjectCard
             name="BELLE VIE"
@@ -44,7 +52,8 @@ export default function CardsSection() {
             marginTop={"5rem"}
             color={"rgb(138 117 90 / 33%)"}
           />
-        </a>      <a href="/Project?name=solare">
+        </a>{" "}
+        <a href="/Project?name=solare">
           <ProjectCard
             name="SOLARE RAS EL HIKMA"
             slogan="La Dolce Vita"

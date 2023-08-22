@@ -19,7 +19,7 @@ export default function Project() {
           <div
             className="imageDiv"
             style={{
-              backgroundImage: `url(https://heritage-eg.s3.amazonaws.com/Heros/${CurrentProject}-hero.png)`,
+              backgroundImage: `url(https://heritage-eg.s3.amazonaws.com/Heros/${CurrentProject}-hero${CurrentProject==="baghush"?'.gif':'.png'})`,
             }}
           ></div>
           <div className="textDiv">
